@@ -82,7 +82,7 @@ The same general feature scope was also maintained. Each version displayed produ
 
 Some framework-specific differences were unavoidable. Astro, SvelteKit, and Qwik use different routing systems, component syntax, build outputs, and client-side execution models. Therefore, the internal implementation details were not identical. However, the user-facing application structure and functional requirements were kept as close as possible.
 
-This consistency made it possible to use the implementations as a controlled basis for evaluation. The later comparison could then focus on build output, JavaScript delivery, Lighthouse results, and developer experience rather than differences in application scope.
+This consistency made it possible to use the three implementations as a controlled basis for the later evaluation. The purpose of this chapter is therefore limited to documenting the implemented application structure and the framework-specific implementation choices. The measurement results and their interpretation are presented separately in the following chapters.
 
 ## 4.8 Summary
 
@@ -90,6 +90,4 @@ This chapter described the implementation of the Product Explorer prototype in A
 
 The Astro implementation followed a static-first approach and matched the mostly static content structure of the prototype well. The SvelteKit implementation provided clear routing, reusable components, and straightforward state handling for interactive features. The Qwik implementation fulfilled the same application requirements while using a different framework model based on resumability and framework-specific client-side behavior.
 
-The implementation was intentionally limited in scope to support a fair comparison. Features such as backend services, authentication, cart functionality, payment processing, related product sections, and external UI libraries were excluded. This helped keep the prototype focused on rendering structure, JavaScript behavior, and practical development experience.
-
-The next chapter evaluates the completed implementations using build output measurements, browser JavaScript delivery measurements, Lighthouse results, and developer experience scores.
+The next chapter evaluates the completed implementations using the measurement categories defined for this thesis. This separation keeps the implementation chapter focused on how the applications were built, while the following chapter focuses on the measured outcomes.
