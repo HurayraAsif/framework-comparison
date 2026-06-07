@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Keyboard",
+    "category": "Accessories",
+    "price": 49.99,
+    "description": "Compact wireless keyboard designed for daily productivity and comfortable typing.",
+    "image": "/images/product-01.svg",
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "name": "USB-C Hub",
+    "category": "Accessories",
+    "price": 39.99,
+    "description": "Multi-port USB-C hub with HDMI, USB-A, and card reader support for laptop users.",
+    "image": "/images/product-02.svg",
+    "rating": 4.4
+  },
+  {
+    "id": 3,
+    "name": "Laptop Stand",
+    "category": "Workspace",
+    "price": 34.99,
+    "description": "Adjustable laptop stand for improving desk ergonomics and screen height.",
+    "image": "/images/product-03.svg",
+    "rating": 4.6
+  },
+  {
+    "id": 4,
+    "name": "Noise-Cancelling Headphones",
+    "category": "Audio",
+    "price": 89.99,
+    "description": "Over-ear headphones with active noise cancellation for focused work sessions.",
+    "image": "/images/product-04.svg",
+    "rating": 4.7
+  },
+  {
+    "id": 5,
+    "name": "Bluetooth Speaker",
+    "category": "Audio",
+    "price": 45.99,
+    "description": "Portable Bluetooth speaker with clear sound and long battery life.",
+    "image": "/images/product-05.svg",
+    "rating": 4.3
+  },
+  {
+    "id": 6,
+    "name": "Ergonomic Mouse",
+    "category": "Accessories",
+    "price": 29.99,
+    "description": "Wireless ergonomic mouse designed to reduce wrist strain during long work sessions.",
+    "image": "/images/product-06.svg",
+    "rating": 4.2
+  },
+  {
+    "id": 7,
+    "name": "Desk Lamp",
+    "category": "Workspace",
+    "price": 27.99,
+    "description": "LED desk lamp with adjustable brightness for reading, studying, and office work.",
+    "image": "/images/product-07.svg",
+    "rating": 4.4
+  },
+  {
+    "id": 8,
+    "name": "External SSD",
+    "category": "Storage",
+    "price": 74.99,
+    "description": "Portable external SSD for fast file transfer and reliable backup storage.",
+    "image": "/images/product-08.svg",
+    "rating": 4.8
+  },
+  {
+    "id": 9,
+    "name": "Webcam",
+    "category": "Office",
+    "price": 54.99,
+    "description": "Full HD webcam suitable for online meetings, remote work, and video calls.",
+    "image": "/images/product-09.svg",
+    "rating": 4.3
+  },
+  {
+    "id": 10,
+    "name": "Monitor Arm",
+    "category": "Workspace",
+    "price": 59.99,
+    "description": "Adjustable monitor arm for improving desk space and display positioning.",
+    "image": "/images/product-10.svg",
+    "rating": 4.5
+  },
+  {
+    "id": 11,
+    "name": "Mechanical Keyboard",
+    "category": "Accessories",
+    "price": 79.99,
+    "description": "Mechanical keyboard with tactile switches for precise and comfortable typing.",
+    "image": "/images/product-11.svg",
+    "rating": 4.6
+  },
+  {
+    "id": 12,
+    "name": "Wireless Charger",
+    "category": "Accessories",
+    "price": 24.99,
+    "description": "Compact wireless charger for compatible smartphones and small devices.",
+    "image": "/images/product-12.svg",
+    "rating": 4.1
+  },
+  {
+    "id": 13,
+    "name": "Portable Monitor",
+    "category": "Office",
+    "price": 129.99,
+    "description": "Slim portable monitor for extending screen space while working or travelling.",
+    "image": "/images/product-13.svg",
+    "rating": 4.5
+  },
+  {
+    "id": 14,
+    "name": "Cable Organizer",
+    "category": "Workspace",
+    "price": 14.99,
+    "description": "Cable organizer set for keeping desk cables tidy and accessible.",
+    "image": "/images/product-14.svg",
+    "rating": 4.0
+  },
+  {
+    "id": 15,
+    "name": "Power Bank",
+    "category": "Mobile",
+    "price": 32.99,
+    "description": "High-capacity power bank for charging phones, tablets, and small devices on the go.",
+    "image": "/images/product-15.svg",
+    "rating": 4.4
+  }
+]

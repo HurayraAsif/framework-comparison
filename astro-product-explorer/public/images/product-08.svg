@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="External SSD">
+  <rect width="800" height="600" rx="32" fill="#f8fafc"/>
+  <rect x="48" y="48" width="704" height="504" rx="28" fill="#ffffff" stroke="#d9e2ec" stroke-width="4"/>
+  <g stroke="#1f4f82" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <rect x="265" y="185" width="270" height="260" rx="30"/><line x1="325" y1="245" x2="475" y2="245"/><line x1="325" y1="295" x2="475" y2="295"/><rect x="345" y="350" width="110" height="45" rx="10"/><circle cx="500" cy="220" r="8" fill="#1f4f82" stroke="none"/>
+  </g>
+  <text x="400" y="495" text-anchor="middle" font-family="Calibri, Arial, sans-serif" font-size="38" font-weight="700" fill="#17324d">External SSD</text>
+  <text x="400" y="535" text-anchor="middle" font-family="Calibri, Arial, sans-serif" font-size="24" fill="#486581">External SSD</text>
+</svg>

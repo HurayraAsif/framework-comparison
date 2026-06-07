@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Ergonomic Mouse">
+  <rect width="800" height="600" rx="32" fill="#f8fafc"/>
+  <rect x="48" y="48" width="704" height="504" rx="28" fill="#ffffff" stroke="#d9e2ec" stroke-width="4"/>
+  <g stroke="#1f4f82" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M400 190 C500 190, 560 270, 540 370 C520 455, 280 455, 260 370 C240 270, 300 190, 400 190 Z"/><line x1="400" y1="195" x2="400" y2="295"/><path d="M320 245 C350 220, 450 220, 480 245"/>
+  </g>
+  <text x="400" y="495" text-anchor="middle" font-family="Calibri, Arial, sans-serif" font-size="38" font-weight="700" fill="#17324d">Ergonomic Mouse</text>
+  <text x="400" y="535" text-anchor="middle" font-family="Calibri, Arial, sans-serif" font-size="24" fill="#486581">Mouse</text>
+</svg>

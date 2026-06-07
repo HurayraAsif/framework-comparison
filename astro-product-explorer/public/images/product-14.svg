@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Cable Organizer">
+  <rect width="800" height="600" rx="32" fill="#f8fafc"/>
+  <rect x="48" y="48" width="704" height="504" rx="28" fill="#ffffff" stroke="#d9e2ec" stroke-width="4"/>
+  <g stroke="#1f4f82" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M220 280 C220 220, 320 220, 320 280 C320 340, 420 340, 420 280 C420 220, 580 220, 580 310 C580 390, 450 390, 450 330"/><rect x="170" y="250" width="65" height="65" rx="14"/><rect x="565" y="280" width="65" height="65" rx="14"/><circle cx="450" cy="330" r="18"/>
+  </g>
+  <text x="400" y="495" text-anchor="middle" font-family="Calibri, Arial, sans-serif" font-size="38" font-weight="700" fill="#17324d">Cable Organizer</text>
+  <text x="400" y="535" text-anchor="middle" font-family="Calibri, Arial, sans-serif" font-size="24" fill="#486581">Cable Organizer</text>
+</svg>

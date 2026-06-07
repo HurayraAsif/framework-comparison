@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Monitor Arm">
+  <rect width="800" height="600" rx="32" fill="#f8fafc"/>
+  <rect x="48" y="48" width="704" height="504" rx="28" fill="#ffffff" stroke="#d9e2ec" stroke-width="4"/>
+  <g stroke="#1f4f82" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <rect x="210" y="180" width="380" height="210" rx="20"/><line x1="400" y1="390" x2="400" y2="450"/><line x1="330" y1="450" x2="470" y2="450"/><line x1="590" y1="285" x2="650" y2="285"/><line x1="650" y1="285" x2="650" y2="430"/><line x1="625" y1="430" x2="675" y2="430"/>
+  </g>
+  <text x="400" y="495" text-anchor="middle" font-family="Calibri, Arial, sans-serif" font-size="38" font-weight="700" fill="#17324d">Monitor Arm</text>
+  <text x="400" y="535" text-anchor="middle" font-family="Calibri, Arial, sans-serif" font-size="24" fill="#486581">Monitor Arm</text>
+</svg>

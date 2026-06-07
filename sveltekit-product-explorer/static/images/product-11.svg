@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Mechanical Keyboard">
+  <rect width="800" height="600" rx="32" fill="#f8fafc"/>
+  <rect x="48" y="48" width="704" height="504" rx="28" fill="#ffffff" stroke="#d9e2ec" stroke-width="4"/>
+  <g stroke="#1f4f82" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <rect x="155" y="205" width="490" height="175" rx="18"/><line x1="195" y1="255" x2="605" y2="255"/><line x1="195" y1="310" x2="605" y2="310"/><line x1="240" y1="220" x2="240" y2="365"/><line x1="300" y1="220" x2="300" y2="365"/><line x1="360" y1="220" x2="360" y2="365"/><line x1="420" y1="220" x2="420" y2="365"/><line x1="480" y1="220" x2="480" y2="365"/><line x1="540" y1="220" x2="540" y2="365"/><line x1="220" y1="350" x2="580" y2="350"/>
+  </g>
+  <text x="400" y="495" text-anchor="middle" font-family="Calibri, Arial, sans-serif" font-size="38" font-weight="700" fill="#17324d">Mechanical Keyboard</text>
+  <text x="400" y="535" text-anchor="middle" font-family="Calibri, Arial, sans-serif" font-size="24" fill="#486581">Mech Keyboard</text>
+</svg>
