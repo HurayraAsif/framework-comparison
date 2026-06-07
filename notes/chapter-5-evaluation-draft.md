@@ -2,15 +2,19 @@
 
 ## 5.1 Introduction
 
-This chapter presents the evaluation results of the three Product Explorer implementations developed in Astro, SvelteKit, and Qwik. The evaluation is based on the same controlled application scenario, the same local JSON dataset, the same route structure, and comparable functional requirements. The tested routes were the homepage `/`, the product listing page `/products`, and one product detail page `/products/1`.
+This chapter presents the evaluation results of the three Product Explorer implementations developed in Astro, SvelteKit, and Qwik. Chapter 4 described how the three implementations were built and how consistency was maintained across the framework versions. This chapter now presents the measured outcomes of those implementations.
 
-The purpose of this chapter is to compare how the three implementations behaved after completion. The evaluation focuses on four areas: production build output, browser JavaScript delivery, Lighthouse audit results, and developer experience. These areas were selected because disappearing frameworks are concerned not only with final page performance, but also with reducing unnecessary client-side JavaScript, simplifying rendering output, and maintaining practical development usability.
+The evaluation focuses on four areas: production build output, browser JavaScript delivery, Lighthouse audit results, and developer experience. These areas were selected because the thesis compares not only final page behavior, but also generated output, browser-side JavaScript delivery, and the practical implementation effort required by each framework.
 
-The results should be interpreted as findings from this specific thesis prototype. They do not represent universal benchmark results for Astro, SvelteKit, or Qwik. However, because the same application specification and measurement procedure were applied to all three implementations, the results provide useful evidence for comparing framework behavior under controlled conditions.
+The tested routes were the homepage `/`, the product listing page `/products`, and one product detail page `/products/1`. These routes were selected because they represent the main structure of the Product Explorer prototype and were available in all three implementations.
 
-## 5.2 Production Build Output Evaluation
+The results in this chapter support the empirical part of the research questions, especially the questions related to JavaScript delivery, build output, performance-related audit results, and developer experience. The chapter presents the results in a descriptive form. Their broader meaning for disappearing-framework behavior is discussed in Chapter 6, and the direct answers to the research questions are provided in Chapter 7.
 
-The first evaluation area was production build output. Each implementation was built locally using the same machine and the same measurement approach. Before each build measurement, the previous production output folder was removed to avoid measuring old build artifacts. The build command used for all three implementations was `npm run build`.
+The measurements should be understood as results from this specific controlled prototype. They are not universal benchmark results for Astro, SvelteKit, or Qwik. However, because the same application scope, route structure, product data, and measurement procedure were used across the three implementations, the results provide a consistent basis for comparison.
+
+## 5.2 Production Build Output
+
+The first evaluation area was production build output. Each implementation was built locally using the same machine and the same measurement approach. Before each build measurement, the previous production output folder was removed so that old build artifacts were not included in the measured output. The production build command used for all three implementations was `npm run build`.
 
 All three implementations completed the production build successfully.
 
@@ -20,7 +24,7 @@ All three implementations completed the production build successfully.
 | SvelteKit | `npm run build` | Passed       |
 | Qwik      | `npm run build` | Passed       |
 
-The measured build times were as follows.
+The measured build times are shown below.
 
 | Framework |    Build time |
 | --------- | ------------: |
@@ -28,9 +32,9 @@ The measured build times were as follows.
 | SvelteKit |  4.59 seconds |
 | Qwik      | 11.83 seconds |
 
-SvelteKit had the fastest measured build time at 4.59 seconds. Astro completed in 6.61 seconds, while Qwik had the longest build time at 11.83 seconds. The Qwik build completed successfully, including type checking and lint checking, but required more time than the other two implementations in this run.
+SvelteKit recorded the shortest build time in this measurement run, with 4.59 seconds. Astro completed the build in 6.61 seconds. Qwik recorded the longest build time, with 11.83 seconds. The Qwik build still completed successfully, including type checking and lint checking.
 
-The total measured output folder sizes were also different across the frameworks.
+The total measured output folder sizes were also recorded.
 
 | Framework | Output folder measured                          | Output file count |   Output size | Output size approx. |
 | --------- | ----------------------------------------------- | ----------------: | ------------: | ------------------: |
@@ -38,9 +42,9 @@ The total measured output folder sizes were also different across the frameworks
 | SvelteKit | `sveltekit-product-explorer/.svelte-kit/output` |                62 | 538,105 bytes |          525.49 KiB |
 | Qwik      | `qwik-product-explorer/dist`                    |                56 | 152,653 bytes |          149.08 KiB |
 
-Astro produced the smallest measured output folder, with 34 files and a total size of 135,079 bytes. Qwik produced a slightly larger output folder, with 56 files and 152,653 bytes. SvelteKit produced the largest measured output folder, with 62 files and 538,105 bytes. This difference is partly related to the structure of SvelteKit’s `.svelte-kit/output` folder, which includes generated client and server output artifacts.
+Astro had the smallest measured output folder, with 34 files and a total size of 135,079 bytes. Qwik had a larger measured output folder than Astro, with 56 files and 152,653 bytes. SvelteKit had the largest measured output folder, with 62 files and 538,105 bytes. The SvelteKit measurement used the `.svelte-kit/output` folder, which includes generated client and server output artifacts.
 
-The JavaScript and CSS build output were measured separately.
+JavaScript and CSS output were measured separately to show how much of the generated output was related to browser-side assets.
 
 | Framework | JavaScript file count | JavaScript size | JavaScript size approx. |
 | --------- | --------------------: | --------------: | ----------------------: |
@@ -54,15 +58,15 @@ The JavaScript and CSS build output were measured separately.
 | SvelteKit |              8 | 13,038 bytes |        12.73 KiB |
 | Qwik      |              1 |  5,319 bytes |         5.19 KiB |
 
-Astro did not produce separate measured JavaScript or CSS files in the `dist` folder for this implementation. This result reflects the mostly static nature of the Astro implementation. SvelteKit generated the largest JavaScript output, with 35 JavaScript files and 503,578 bytes. Qwik generated the same number of JavaScript files as SvelteKit, but the total measured JavaScript size was much smaller at 96,401 bytes.
+In the measured output folders, Astro did not produce separate measured JavaScript or CSS files for this implementation. SvelteKit generated 35 JavaScript files with a total measured JavaScript size of 503,578 bytes. Qwik also generated 35 JavaScript files, but the total measured JavaScript size was 96,401 bytes. For CSS output, SvelteKit generated 8 measured CSS files, while Qwik generated 1 measured CSS file.
 
-Overall, Astro produced the smallest and simplest measured production output. SvelteKit had the fastest build time but the largest generated output. Qwik produced a smaller JavaScript output than SvelteKit, but had the longest measured build time.
+These results show the generated production output for the three implementations. The browser-level JavaScript delivery results are presented separately in the next section because generated output and browser-loaded output are not necessarily the same measurement.
 
-## 5.3 Browser JavaScript Delivery Evaluation
+## 5.3 Browser JavaScript Delivery
 
-The second evaluation area was browser JavaScript delivery. This measurement is different from build output measurement because it shows what the browser actually requested and transferred during page loading. A framework may generate many JavaScript files during build, but not all generated files are necessarily loaded on every route.
+The second evaluation area was browser JavaScript delivery. This measurement records what the browser requested and transferred during page loading. It is separate from the production build output measurement because not all generated JavaScript files are necessarily loaded on every route.
 
-The measurements were collected using the Chrome DevTools Network tab. The JavaScript filter was selected, browser cache was disabled, and each tested route was loaded under local production-preview conditions.
+The measurements were collected using the Chrome DevTools Network tab. The JavaScript filter was selected, browser cache was disabled, and each route was tested under local production-preview conditions.
 
 | Framework | Page          | JS requests | JS transferred | Total transferred | Notes                                                  |
 | --------- | ------------- | ----------: | -------------: | ----------------: | ------------------------------------------------------ |
@@ -76,19 +80,31 @@ The measurements were collected using the Chrome DevTools Network tab. The JavaS
 | Qwik      | `/products`   |          16 |        43.8 kB |           72.8 kB | Production preview, JS filter selected, cache disabled |
 | Qwik      | `/products/1` |          14 |        40.9 kB |           49.8 kB | Production preview, JS filter selected, cache disabled |
 
-Astro loaded no separate JavaScript files on any of the three tested routes. The JavaScript request count was 0 for the homepage, product listing page, and product detail page. This was the clearest JavaScript-delivery difference in the experiment and reflects Astro’s static-first behavior in this specific implementation.
+Astro recorded 0 JavaScript requests on all three tested routes. The recorded JavaScript transfer size was also 0.0 kB for the homepage, product listing page, and product detail page.
 
-SvelteKit loaded JavaScript on all tested routes. The homepage loaded 9 JavaScript requests with 35.2 kB transferred. The product listing page and product detail page each loaded 10 JavaScript requests with 37.4 kB transferred. This indicates a consistent client-side JavaScript payload across the tested SvelteKit pages.
+SvelteKit recorded JavaScript requests on all tested routes. The homepage loaded 9 JavaScript requests with 35.2 kB transferred. The product listing page and product detail page each loaded 10 JavaScript requests with 37.4 kB transferred.
 
-Qwik also loaded JavaScript on all tested routes. The homepage loaded 11 JavaScript requests with 38.7 kB transferred. The product listing page loaded 16 JavaScript requests with 43.8 kB transferred, while the product detail page loaded 14 JavaScript requests with 40.9 kB transferred.
+Qwik also recorded JavaScript requests on all tested routes. The homepage loaded 11 JavaScript requests with 38.7 kB transferred. The product listing page loaded 16 JavaScript requests with 43.8 kB transferred. The product detail page loaded 14 JavaScript requests with 40.9 kB transferred.
 
-The browser-level result is important because Qwik generated less total JavaScript output than SvelteKit in the build output measurement, but transferred slightly more JavaScript than SvelteKit during the tested page loads. This shows that build output size and browser-delivered JavaScript are separate measurements. For this reason, both build-level and Network-tab measurements are needed for a fairer evaluation.
+The Network-tab measurements show that the browser-loaded JavaScript results differed from the build-output JavaScript results. Qwik generated less total JavaScript output than SvelteKit in the build-output measurement, but Qwik recorded more JavaScript requests and slightly higher JavaScript transfer values than SvelteKit in the tested browser page loads. This distinction is relevant for the later discussion because build output and browser delivery describe different parts of framework behavior.
 
-Overall, Astro delivered the least browser JavaScript in this prototype. SvelteKit and Qwik both delivered client-side JavaScript for the tested routes, with Qwik showing a higher number of JavaScript requests and slightly higher transferred JavaScript size in this specific implementation.
+## 5.4 Lighthouse Audit Results
 
-## 5.4 Lighthouse Evaluation
+The third evaluation area was Lighthouse desktop auditing. Lighthouse was used to evaluate Performance, Accessibility, Best Practices, and SEO for the three tested routes. The audits were collected manually in Chrome DevTools using Navigation mode and Desktop device settings. Each route was tested under the same local production-preview conditions.
 
-The third evaluation area was Lighthouse desktop auditing. Lighthouse was used to measure Performance, Accessibility, Best Practices, and SEO for the three tested routes. The audits were collected manually in Chrome DevTools using Navigation mode and Desktop device settings. Each route was tested three times, and the results were stable across repeated runs.
+The route-level Lighthouse scores are shown below.
+
+| Framework | Page          | Performance | Accessibility | Best Practices | SEO |
+| --------- | ------------- | ----------: | ------------: | -------------: | --: |
+| Astro     | `/`           |         100 |           100 |            100 |  90 |
+| Astro     | `/products`   |         100 |            93 |            100 |  91 |
+| Astro     | `/products/1` |         100 |            85 |            100 |  91 |
+| SvelteKit | `/`           |         100 |           100 |            100 |  91 |
+| SvelteKit | `/products`   |         100 |            93 |            100 |  92 |
+| SvelteKit | `/products/1` |         100 |            90 |            100 |  92 |
+| Qwik      | `/`           |         100 |            91 |            100 |  82 |
+| Qwik      | `/products`   |         100 |            91 |            100 |  83 |
+| Qwik      | `/products/1` |         100 |            86 |            100 |  83 |
 
 The average Lighthouse scores across the tested routes are shown below.
 
@@ -98,50 +114,44 @@ The average Lighthouse scores across the tested routes are shown below.
 | SvelteKit |           100.00 |              94.33 |              100.00 |    91.67 |
 | Qwik      |           100.00 |              89.33 |              100.00 |    82.67 |
 
-All three implementations achieved an average Performance score of 100.00. This means that Lighthouse Performance did not separate the frameworks in this controlled desktop test. The application was small, used local data, and had limited interaction complexity, so this result should not be interpreted as proof that the frameworks would perform identically in larger production applications.
+All three implementations achieved a Performance score of 100 on all tested routes. As a result, the average Performance score was 100.00 for Astro, SvelteKit, and Qwik. All three implementations also achieved a Best Practices score of 100 on all tested routes, giving each framework an average Best Practices score of 100.00.
 
-All three implementations also achieved an average Best Practices score of 100.00. This indicates that the tested pages did not trigger major Lighthouse best-practice warnings during the repeated desktop audits.
+The Accessibility scores showed more variation. Astro recorded Accessibility scores of 100, 93, and 85 across the tested routes, resulting in an average of 92.67. SvelteKit recorded 100, 93, and 90, resulting in an average of 94.33. Qwik recorded 91, 91, and 86, resulting in an average of 89.33.
 
-The main differences appeared in Accessibility and SEO. SvelteKit achieved the highest average Accessibility score at 94.33 and the highest average SEO score at 91.67. Astro followed closely, with an average Accessibility score of 92.67 and an average SEO score of 90.67. Qwik had lower average scores in these two categories, with 89.33 for Accessibility and 82.67 for SEO.
+The SEO scores also varied between the implementations. Astro recorded SEO scores of 90, 91, and 91, resulting in an average of 90.67. SvelteKit recorded 91, 92, and 92, resulting in an average of 91.67. Qwik recorded 82, 83, and 83, resulting in an average of 82.67.
 
-These differences are likely connected to implementation-level details such as page metadata, semantic structure, image attributes, button labeling, link text, and heading structure. Therefore, the Lighthouse results should not be interpreted as evidence that one framework is inherently more accessible or more SEO-friendly than another. Instead, they show how the current implementations behaved under the same audit conditions.
+These Lighthouse results describe the audited behavior of the implemented prototype pages under the selected desktop test conditions. The interpretation of why the Accessibility and SEO scores differ is discussed in Chapter 6, where implementation-level factors such as metadata, semantic structure, labels, image attributes, and heading structure are considered.
 
-Overall, Lighthouse confirmed that all three implementations performed very well in Performance and Best Practices. The more useful differences appeared in Accessibility and SEO, where SvelteKit scored highest overall, Astro remained close, and Qwik showed lower results in this prototype.
+## 5.5 Developer Experience Results
 
-## 5.5 Developer Experience Evaluation
+The fourth evaluation area was developer experience. This evaluation is qualitative rather than runtime-based. It records the practical implementation experience of building the same Product Explorer prototype in Astro, SvelteKit, and Qwik.
 
-The fourth evaluation area was developer experience. Unlike the previous measurements, developer experience is not a runtime metric. It is a qualitative assessment based on the process of implementing the same Product Explorer application in Astro, SvelteKit, and Qwik.
+The developer experience evaluation considered setup difficulty, routing clarity, data handling, interactivity implementation, state handling, code readability, documentation clarity, build process, and learning curve. Each framework was scored from 1 to 5, where 1 indicates a very difficult implementation experience and 5 indicates a very smooth implementation experience.
 
-The evaluation considered setup difficulty, routing clarity, data handling, interactivity implementation, state handling, code readability, documentation clarity, build process, and learning curve. Each framework was scored from 1 to 5, where 1 indicates a very difficult experience and 5 indicates a very smooth experience.
+| Framework | Developer experience score | Summary                                                                                                                                                                                                |
+| --------- | -------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Astro     |                          5 | The implementation process was direct for this mostly static prototype. Routing, page generation, and build behavior were straightforward.                                                             |
+| SvelteKit |                          4 | The implementation process was clear and productive. Routing and component structure were understandable, although the generated output structure and adapter-related message required interpretation. |
+| Qwik      |                          3 | The implementation was completed successfully, but it required more framework-specific adjustment, especially around syntax, browser-only behavior, build warnings, and debugging.                     |
 
-| Framework | Developer experience score | Summary                                                                                                                                                                     |
-| --------- | -------------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Astro     |                          5 | The simplest and most stable implementation experience for this prototype. Static routing, page generation, and build behavior were straightforward.                        |
-| SvelteKit |                          4 | Good developer experience with clear routing and component structure. Some build/output behavior required interpretation because of adapter-auto and `.svelte-kit/output`.  |
-| Qwik      |                          3 | Functional in the end, but more difficult during implementation. Extra friction came from Qwik-specific syntax, client-side behavior, build warnings, and debugging issues. |
+Astro received a developer experience score of 5. The project structure was easy to follow, and the implementation matched the mostly static Product Explorer requirements. The route structure, page generation, reusable components, and build process were direct for this prototype.
 
-Astro received the highest developer-experience score. Its project structure was easy to understand, and the implementation matched the mostly static Product Explorer requirements naturally. The routing, page generation, and build behavior were straightforward for this prototype.
+SvelteKit received a developer experience score of 4. Its routing model and component organization were clear, and interactive behavior was straightforward to implement using Svelte state. The main additional complexity came from interpreting the `.svelte-kit/output` structure and the adapter-related message that appeared during the build process.
 
-SvelteKit also provided a good developer experience. Its routing model was clear, reusable components were easy to organize, and client-side interactivity was straightforward to implement using Svelte state. The main additional complexity came from interpreting the generated `.svelte-kit/output` structure and the adapter-auto warning. The warning did not prevent a successful build, but it indicated that a specific deployment adapter would be needed for a real production target.
+Qwik received a developer experience score of 3. The final implementation worked, including routing, product listing, filtering, product detail pages, and the favorite button. However, the process required more framework-specific adjustment. The main issues were related to Qwik-specific syntax, build warnings, lint-related corrections, debugging, and careful handling of browser-only APIs such as `localStorage`.
 
-Qwik required the most troubleshooting during implementation. The final application worked correctly, including routing, product listing, search, category filtering, product detail pages, and the favorite button. However, implementation required more framework-specific adjustment. Issues included Qwik-specific syntax, build warnings, lint-related corrections, and careful handling of browser-only APIs such as `localStorage`.
-
-The lower Qwik developer-experience score does not mean that Qwik is generally weak. It reflects the implementation experience of this specific prototype. Qwik uses a different mental model around resumability, signals, and client-side execution. For this small application, that mental model made implementation less direct than Astro and SvelteKit.
-
-Overall, Astro provided the smoothest development process for this prototype, SvelteKit offered a balanced and productive experience, and Qwik required the most framework-specific adjustment.
+These scores record the implementation experience for this specific prototype and developer context. They should not be interpreted as universal developer experience ratings for the frameworks. The broader meaning of these results is discussed in Chapter 6.
 
 ## 5.6 Summary
 
-This chapter evaluated the Product Explorer implementations across four areas: production build output, browser JavaScript delivery, Lighthouse results, and developer experience.
+This chapter presented the evaluation results for the Astro, SvelteKit, and Qwik implementations of the Product Explorer prototype. The results were organized around four areas: production build output, browser JavaScript delivery, Lighthouse audit results, and developer experience.
 
-The production build output results showed that Astro produced the smallest measured output folder. SvelteKit had the fastest build time but generated the largest measured output. Qwik generated less total JavaScript than SvelteKit, but had the longest measured build time.
+The production build output results recorded differences in build time, output folder size, JavaScript output, and CSS output. SvelteKit had the shortest measured build time, Astro had the smallest measured output folder, and Qwik had a smaller measured JavaScript output than SvelteKit.
 
-The browser Network tab results showed that Astro delivered no separate JavaScript files on the tested pages. SvelteKit and Qwik both delivered JavaScript on all tested routes. In this prototype, Qwik transferred slightly more JavaScript than SvelteKit during page loading, even though its total generated JavaScript output was smaller.
+The browser JavaScript delivery results recorded the JavaScript requests and transfer sizes observed in the Chrome DevTools Network tab. Astro recorded 0 JavaScript requests on all tested routes. SvelteKit and Qwik both recorded JavaScript requests on all tested routes, with Qwik recording a higher number of JavaScript requests than SvelteKit in this measurement.
 
-The Lighthouse results showed that all three frameworks achieved perfect Performance and Best Practices scores under the tested desktop conditions. Differences appeared mainly in Accessibility and SEO. SvelteKit achieved the highest average scores in these categories, Astro followed closely, and Qwik scored lower in this implementation.
+The Lighthouse audit results recorded high scores across the tested implementations. Performance and Best Practices were 100 for all frameworks and routes. Differences were visible mainly in Accessibility and SEO.
 
-The developer-experience evaluation showed that Astro was the easiest implementation for this prototype, followed by SvelteKit and Qwik. This result is important because framework comparison should consider not only technical output, but also the practical effort required to implement and maintain the application.
+The developer experience results recorded different levels of implementation effort. Astro received the highest score in this prototype, followed by SvelteKit and Qwik. These scores reflect the implementation process of the controlled Product Explorer application and are interpreted further in the next chapter.
 
-Overall, Astro showed the strongest result for JavaScript reduction in this controlled prototype. SvelteKit provided the strongest balance of build speed, Lighthouse scores, and developer experience. Qwik demonstrated a smaller generated JavaScript output than SvelteKit, but its browser JavaScript transfer was not lower in this specific implementation and its development process required more framework-specific troubleshooting.
-
-The next chapter discusses these findings in relation to the research question and the broader concept of disappearing frameworks.
+The purpose of this chapter was to present the measured and recorded results in a structured form. Chapter 6 discusses what these results mean for the comparison of disappearing-framework behavior, and Chapter 7 uses the results to answer the research questions directly.
