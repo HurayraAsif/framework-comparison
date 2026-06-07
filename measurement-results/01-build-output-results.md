@@ -1,27 +1,33 @@
 # Build Output Results
 
-This file records the build output measurements for the three Product Explorer implementations: Astro, SvelteKit, and Qwik.
+## Purpose
 
-The measurements were collected on the same local machine using PowerShell. Each application was built after removing its previous production output folder to make the build measurement cleaner.
+This file records the production build output measurements for the three Product Explorer implementations: Astro, SvelteKit, and Qwik.
+
+The purpose of this file is to document the measured build-level evidence used later in the evaluation chapter. Interpretation is kept limited here so that the measurement file remains a clear evidence record rather than a discussion chapter.
 
 ## Measurement Method
 
+The measurements were collected on the same local machine using PowerShell. Before each measurement, the previous production output folder was removed to avoid including old build artifacts.
+
 The following method was used:
 
-1. Navigate into each framework project folder.
-2. Remove the previous build output folder.
+1. Navigate into the framework project folder.
+2. Remove the previous production output folder.
 3. Run the production build command.
 4. Record the build time using PowerShell `Measure-Command`.
-5. Measure the output folder size using `Get-ChildItem` and `Measure-Object`.
-6. Measure separate JavaScript and CSS file output.
+5. Measure the output folder file count and size using `Get-ChildItem` and `Measure-Object`.
+6. Measure JavaScript and CSS output files separately.
 
-## Build Commands
+The byte-to-KiB approximation uses 1 KiB = 1024 bytes.
 
-| Framework | Build command   | Output folder measured                          |
-| --------- | --------------- | ----------------------------------------------- |
-| Astro     | `npm run build` | `astro-product-explorer/dist`                   |
-| SvelteKit | `npm run build` | `sveltekit-product-explorer/.svelte-kit/output` |
-| Qwik      | `npm run build` | `qwik-product-explorer/dist`                    |
+## Build Commands and Output Folders
+
+| Framework | Build command   | Build status | Output folder measured                          |
+| --------- | --------------- | ------------ | ----------------------------------------------- |
+| Astro     | `npm run build` | Passed       | `astro-product-explorer/dist`                   |
+| SvelteKit | `npm run build` | Passed       | `sveltekit-product-explorer/.svelte-kit/output` |
+| Qwik      | `npm run build` | Passed       | `qwik-product-explorer/dist`                    |
 
 ## Build Time Results
 
@@ -55,14 +61,22 @@ The following method was used:
 | SvelteKit |              8 | 13,038 bytes |        12.73 KiB |
 | Qwik      |              1 |  5,319 bytes |         5.19 KiB |
 
-## Observations
+## Build Output Observations
 
-Astro produced the smallest measured total output folder. The Astro build generated 17 static pages and did not produce separate JavaScript or CSS files in the measured `dist` folder for this implementation.
+All three implementations completed the production build successfully.
 
-SvelteKit had the fastest measured build time in this run, but its measured output folder was the largest. This is because the `.svelte-kit/output` folder includes generated client and server output artifacts. The build completed successfully, although the adapter-auto message appeared because no specific deployment adapter was configured.
+SvelteKit had the fastest measured build time at 4.59 seconds. Astro completed in 6.61 seconds, while Qwik had the longest measured build time at 11.83 seconds.
 
-Qwik produced a total output folder size close to Astro but generated separate JavaScript and CSS assets. Its build time was the longest in this run. The build completed successfully with type checking and lint checking, although Qwik showed warnings and the message about a missing integration for preview/deployment configuration.
+Astro produced the smallest measured output folder, with 34 files and a total size of 135,079 bytes. Qwik produced a slightly larger output folder, with 56 files and 152,653 bytes. SvelteKit produced the largest measured output folder, with 62 files and 538,105 bytes.
+
+In the measured `dist` folder, Astro did not produce separate JavaScript or CSS files for this implementation. This result should be understood as a measurement of the generated output folder for this specific Astro prototype, not as a general claim about every Astro application.
+
+SvelteKit generated the largest measured JavaScript output, with 35 JavaScript files and 503,578 bytes. Qwik generated the same number of JavaScript files, but the total measured JavaScript size was lower at 96,401 bytes.
+
+The SvelteKit build completed successfully, although an adapter-related message appeared because no specific deployment adapter was configured. The Qwik build also completed successfully, including type checking and lint checking, although framework-specific preview or deployment configuration messages were shown.
 
 ## Notes
 
-The measurements should be interpreted as local build output measurements for this controlled thesis application, not as universal framework benchmarks. The same dataset, same product images, same route structure, and similar UI functionality were used across all three implementations to keep the comparison fair.
+These measurements should be interpreted as local build output measurements for the controlled Product Explorer thesis prototype. They are not universal benchmark results for Astro, SvelteKit, or Qwik.
+
+The same product dataset, similar route structure, comparable visual design, and similar functional requirements were used across all three implementations to support a fair comparison.
