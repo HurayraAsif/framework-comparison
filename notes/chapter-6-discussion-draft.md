@@ -82,18 +82,16 @@ Fourth, the implementations were designed to be comparable, but they could not b
 
 Fifth, the developer experience score is qualitative. It reflects the implementation process of this thesis prototype and the developer’s experience during the project. Other developers with different levels of experience may score the frameworks differently.
 
-These limitations do not invalidate the results, but they define the scope of the conclusions. The findings should be understood as evidence from a controlled prototype rather than general benchmark claims.
+These limitations do not invalidate the results, but they define the scope of interpretation. The findings should be understood as evidence from a controlled prototype rather than as general benchmark claims.
 
 ## 6.8 Summary
 
-This chapter discussed the evaluation findings from the Product Explorer implementations in Astro, SvelteKit, and Qwik.
+This chapter discussed the meaning of the evaluation results presented in Chapter 5. The discussion showed that the three frameworks differ not only in measured output, but also in architectural behavior and implementation trade-offs.
 
-Astro showed the strongest result for browser JavaScript reduction in this prototype. It produced the smallest measured output folder and loaded no separate JavaScript files on the tested routes. This made it the clearest example of a disappearing-framework approach in this controlled scenario.
+Astro demonstrated the clearest reduction of browser-side JavaScript in the controlled Product Explorer prototype. This was consistent with its static-first approach and made it well suited to the mostly static structure of the application.
 
-SvelteKit showed the strongest overall balance. It had the fastest measured build time, strong Lighthouse scores, and a good developer experience. Although it delivered JavaScript to the browser, it remained practical and efficient to implement.
+SvelteKit showed a balanced profile in the evaluation. It combined fast build time, strong Lighthouse results, and a clear development experience, while still delivering JavaScript to the browser on the tested routes.
 
-Qwik demonstrated a different architectural approach based on resumability. It generated less total JavaScript output than SvelteKit, but it did not transfer less browser JavaScript in the measured route loads. It also required more framework-specific implementation effort in this prototype.
+Qwik represented a different architectural model based on resumability and delayed execution. In this prototype, however, those architectural ideas did not produce lower browser JavaScript delivery than the other JavaScript-delivering implementation.
 
-The main conclusion from the discussion is that framework comparison should not depend on a single result. Build output, browser JavaScript delivery, Lighthouse scores, and developer experience each show a different part of the picture. For this Product Explorer prototype, Astro was strongest for JavaScript reduction, SvelteKit was strongest as a balanced development option, and Qwik showed an advanced model that may require larger or more interactive applications to demonstrate its full advantages.
-
-The next chapter concludes the thesis by summarizing the research findings, answering the research question, and identifying possible directions for future work.
+The discussion also showed that framework comparison should not depend on one measurement only. Build output, browser JavaScript delivery, Lighthouse audit results, and developer experience each describe a different part of the comparison.Chapter 7 uses these findings to answer the research questions directly and to present the final thesis conclusion.
