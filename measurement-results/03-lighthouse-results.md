@@ -2,13 +2,13 @@
 
 ## Purpose
 
-This file records Lighthouse measurement results for the three Product Explorer implementations: Astro, SvelteKit, and Qwik.
+This file records Lighthouse audit results for the three Product Explorer implementations: Astro, SvelteKit, and Qwik.
 
-The purpose of this measurement is to compare the frameworks using the same controlled application scenario, the same routes, the same product dataset, and the same browser-based Lighthouse method.
+The purpose of this file is to document the measured Lighthouse evidence used later in the evaluation chapter. The file focuses on recorded scores from the audits. Broader interpretation is kept for the evaluation chapter.
 
 ## Measurement Method
 
-The Lighthouse measurements were collected using Chrome DevTools Lighthouse.
+The Lighthouse measurements were collected manually using Chrome DevTools Lighthouse.
 
 The following settings were used:
 
@@ -21,7 +21,7 @@ The following settings were used:
 | Environment    | Local production preview server                 |
 | Runs per route | 3                                               |
 
-Each framework was tested separately using its production preview command. The same three routes were tested for every framework.
+Each framework was tested separately using its production preview server. The same three routes were tested for each framework.
 
 ## Tested Routes
 
@@ -32,8 +32,6 @@ Each framework was tested separately using its production preview command. The s
 | `/products/1` | Product detail page  |
 
 ## Astro Lighthouse Results
-
-### Astro: Individual Runs
 
 | Page          | Run | Performance | Accessibility | Best Practices | SEO |
 | ------------- | --: | ----------: | ------------: | -------------: | --: |
@@ -47,7 +45,7 @@ Each framework was tested separately using its production preview command. The s
 | `/products/1` |   2 |         100 |            85 |            100 |  91 |
 | `/products/1` |   3 |         100 |            85 |            100 |  91 |
 
-### Astro: Average Scores
+### Astro Average Scores
 
 | Page          | Avg. Performance | Avg. Accessibility | Avg. Best Practices | Avg. SEO |
 | ------------- | ---------------: | -----------------: | ------------------: | -------: |
@@ -56,8 +54,6 @@ Each framework was tested separately using its production preview command. The s
 | `/products/1` |              100 |                 85 |                 100 |       91 |
 
 ## SvelteKit Lighthouse Results
-
-### SvelteKit: Individual Runs
 
 | Page          | Run | Performance | Accessibility | Best Practices | SEO |
 | ------------- | --: | ----------: | ------------: | -------------: | --: |
@@ -71,7 +67,7 @@ Each framework was tested separately using its production preview command. The s
 | `/products/1` |   2 |         100 |            90 |            100 |  92 |
 | `/products/1` |   3 |         100 |            90 |            100 |  92 |
 
-### SvelteKit: Average Scores
+### SvelteKit Average Scores
 
 | Page          | Avg. Performance | Avg. Accessibility | Avg. Best Practices | Avg. SEO |
 | ------------- | ---------------: | -----------------: | ------------------: | -------: |
@@ -80,8 +76,6 @@ Each framework was tested separately using its production preview command. The s
 | `/products/1` |              100 |                 90 |                 100 |       92 |
 
 ## Qwik Lighthouse Results
-
-### Qwik: Individual Runs
 
 | Page          | Run | Performance | Accessibility | Best Practices | SEO |
 | ------------- | --: | ----------: | ------------: | -------------: | --: |
@@ -95,7 +89,7 @@ Each framework was tested separately using its production preview command. The s
 | `/products/1` |   2 |         100 |            86 |            100 |  83 |
 | `/products/1` |   3 |         100 |            86 |            100 |  83 |
 
-### Qwik: Average Scores
+### Qwik Average Scores
 
 | Page          | Avg. Performance | Avg. Accessibility | Avg. Best Practices | Avg. SEO |
 | ------------- | ---------------: | -----------------: | ------------------: | -------: |
@@ -115,28 +109,18 @@ The following table summarizes the average Lighthouse scores across all three te
 
 ## Observations
 
-All three frameworks achieved perfect Performance scores across all tested routes. This indicates that, for this small controlled Product Explorer application, Lighthouse did not identify major performance issues in any framework implementation.
+All three implementations achieved a Performance score of 100 on every tested route.
 
-All three frameworks also achieved perfect Best Practices scores across all tested routes. This suggests that the implementations followed acceptable browser and web platform practices according to the Lighthouse checks used in this measurement.
+All three implementations also achieved a Best Practices score of 100 on every tested route.
 
-The main differences appeared in Accessibility and SEO. SvelteKit achieved the highest overall average scores in these two categories. Astro followed closely, while Qwik showed lower SEO scores and slightly lower Accessibility scores, especially on the product detail page.
+The main score differences appeared in Accessibility and SEO. SvelteKit had the highest overall average scores in these two categories. Astro followed closely. Qwik had lower average Accessibility and SEO scores in this implementation.
 
-Astro produced stable results across all three runs. Its homepage reached perfect scores in Performance, Accessibility, and Best Practices, while SEO remained at 90. The product detail page had the lowest Astro Accessibility score at 85.
-
-SvelteKit produced stable results across all three runs. It achieved the highest overall average Accessibility and SEO scores among the three frameworks in this Lighthouse measurement.
-
-Qwik also produced stable results across all three runs. Its Performance and Best Practices scores were perfect, but its SEO scores were lower than Astro and SvelteKit across all tested pages.
-
-## Interpretation
-
-The Lighthouse results show that framework choice alone did not create a measurable Performance difference in this controlled desktop test. All three frameworks reached a Performance score of 100 on the tested pages.
-
-However, the results also show that framework implementations can differ in non-performance categories such as Accessibility and SEO. These differences are likely connected to implementation details such as page metadata, semantic structure, labels, image attributes, and other markup-level factors rather than only the framework runtime model.
-
-Therefore, the Lighthouse results should be interpreted as local measurements of these specific Product Explorer implementations, not as universal benchmark results for Astro, SvelteKit, or Qwik.
+The Lighthouse scores were stable across the three repeated runs for each tested route.
 
 ## Notes
 
-The measurements were collected using local production preview builds. The results may vary on other machines, browsers, Lighthouse versions, screen sizes, or network conditions.
+These measurements should be interpreted as local Lighthouse results for the controlled Product Explorer thesis prototype. They are not universal benchmark results for Astro, SvelteKit, or Qwik.
 
-The same product dataset, route structure, and similar visual design were used across all three implementations to keep the comparison as fair as possible.
+The results may vary on other machines, browsers, Lighthouse versions, screen sizes, or network conditions.
+
+The same product dataset, similar route structure, comparable visual design, and similar functional requirements were used across all three implementations to support a fair comparison.
