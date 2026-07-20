@@ -1,0 +1,5622 @@
+{
+  "metadata": {
+    "startedAt": "2026-07-20T17:05:02.711Z",
+    "finishedAt": "2026-07-20T17:06:08.003Z",
+    "operatingSystem": "win32 x64",
+    "nodeVersion": "v24.16.0",
+    "playwrightVersion": "1.61.1",
+    "chromiumVersion": "149.0.7827.55",
+    "runCount": 3,
+    "routes": [
+      "/",
+      "/products",
+      "/products/1"
+    ],
+    "conditions": {
+      "browserProcess": "fresh process for every framework/route/run",
+      "browserContext": "fresh context; service workers blocked",
+      "cache": "disabled through Chrome DevTools Protocol",
+      "wait": "network idle plus 500 ms",
+      "interaction": "none"
+    }
+  },
+  "summary": [
+    {
+      "framework": "Astro",
+      "route": "/",
+      "runs": 3,
+      "externalJsRequests": 0,
+      "externalJsTransferBytes": 0,
+      "decodedExternalJsBytes": 0,
+      "executableInlineJsBytes": 0,
+      "totalJsSourceBytes": 0,
+      "nonExecutableScriptBytes": 0,
+      "totalPageTransferBytes": 1656
+    },
+    {
+      "framework": "Astro",
+      "route": "/products",
+      "runs": 3,
+      "externalJsRequests": 0,
+      "externalJsTransferBytes": 0,
+      "decodedExternalJsBytes": 0,
+      "executableInlineJsBytes": 660,
+      "totalJsSourceBytes": 660,
+      "nonExecutableScriptBytes": 0,
+      "totalPageTransferBytes": 20365
+    },
+    {
+      "framework": "Astro",
+      "route": "/products/1",
+      "runs": 3,
+      "externalJsRequests": 0,
+      "externalJsTransferBytes": 0,
+      "decodedExternalJsBytes": 0,
+      "executableInlineJsBytes": 695,
+      "totalJsSourceBytes": 695,
+      "nonExecutableScriptBytes": 0,
+      "totalPageTransferBytes": 3071
+    },
+    {
+      "framework": "SvelteKit",
+      "route": "/",
+      "runs": 3,
+      "externalJsRequests": 9,
+      "externalJsTransferBytes": 35173,
+      "decodedExternalJsBytes": 81947,
+      "executableInlineJsBytes": 473,
+      "totalJsSourceBytes": 82420,
+      "nonExecutableScriptBytes": 0,
+      "totalPageTransferBytes": 39920
+    },
+    {
+      "framework": "SvelteKit",
+      "route": "/products",
+      "runs": 3,
+      "externalJsRequests": 10,
+      "externalJsTransferBytes": 37357,
+      "decodedExternalJsBytes": 86558,
+      "executableInlineJsBytes": 473,
+      "totalJsSourceBytes": 87031,
+      "nonExecutableScriptBytes": 0,
+      "totalPageTransferBytes": 59317
+    },
+    {
+      "framework": "SvelteKit",
+      "route": "/products/1",
+      "runs": 3,
+      "externalJsRequests": 10,
+      "externalJsTransferBytes": 37398,
+      "decodedExternalJsBytes": 86747,
+      "executableInlineJsBytes": 476,
+      "totalJsSourceBytes": 87223,
+      "nonExecutableScriptBytes": 0,
+      "totalPageTransferBytes": 43282
+    },
+    {
+      "framework": "Qwik",
+      "route": "/",
+      "runs": 3,
+      "externalJsRequests": 11,
+      "externalJsTransferBytes": 38689,
+      "decodedExternalJsBytes": 77906,
+      "executableInlineJsBytes": 810.6666666666666,
+      "totalJsSourceBytes": 78716.66666666667,
+      "nonExecutableScriptBytes": 1611,
+      "totalPageTransferBytes": 44631.666666666664
+    },
+    {
+      "framework": "Qwik",
+      "route": "/products",
+      "runs": 3,
+      "externalJsRequests": 16,
+      "externalJsTransferBytes": 43769,
+      "decodedExternalJsBytes": 84343,
+      "executableInlineJsBytes": 1117,
+      "totalJsSourceBytes": 85460,
+      "nonExecutableScriptBytes": 13728,
+      "totalPageTransferBytes": 71013
+    },
+    {
+      "framework": "Qwik",
+      "route": "/products/1",
+      "runs": 3,
+      "externalJsRequests": 14,
+      "externalJsTransferBytes": 40903,
+      "decodedExternalJsBytes": 79557,
+      "executableInlineJsBytes": 985.3333333333334,
+      "totalJsSourceBytes": 80542.33333333333,
+      "nonExecutableScriptBytes": 2300,
+      "totalPageTransferBytes": 48045
+    }
+  ],
+  "rawResults": [
+    {
+      "framework": "Astro",
+      "route": "/",
+      "run": 1,
+      "url": "http://127.0.0.1:4301/",
+      "externalJsRequests": 0,
+      "externalJsTransferBytes": 0,
+      "decodedExternalJsBytes": 0,
+      "executableInlineJsBytes": 0,
+      "totalJsSourceBytes": 0,
+      "nonExecutableScriptBytes": 0,
+      "totalPageTransferBytes": 1656,
+      "inlineScripts": [],
+      "resources": [
+        {
+          "requestId": "1655E0F84621D610B02C85B60DA2228F",
+          "url": "http://127.0.0.1:4301/",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 1656,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        }
+      ]
+    },
+    {
+      "framework": "Astro",
+      "route": "/",
+      "run": 2,
+      "url": "http://127.0.0.1:4301/",
+      "externalJsRequests": 0,
+      "externalJsTransferBytes": 0,
+      "decodedExternalJsBytes": 0,
+      "executableInlineJsBytes": 0,
+      "totalJsSourceBytes": 0,
+      "nonExecutableScriptBytes": 0,
+      "totalPageTransferBytes": 1656,
+      "inlineScripts": [],
+      "resources": [
+        {
+          "requestId": "C2B248B39DB34CB29C765B38FBFC9AFE",
+          "url": "http://127.0.0.1:4301/",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 1656,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        }
+      ]
+    },
+    {
+      "framework": "Astro",
+      "route": "/",
+      "run": 3,
+      "url": "http://127.0.0.1:4301/",
+      "externalJsRequests": 0,
+      "externalJsTransferBytes": 0,
+      "decodedExternalJsBytes": 0,
+      "executableInlineJsBytes": 0,
+      "totalJsSourceBytes": 0,
+      "nonExecutableScriptBytes": 0,
+      "totalPageTransferBytes": 1656,
+      "inlineScripts": [],
+      "resources": [
+        {
+          "requestId": "8EA32000A1F4AFD57AED4B5D6A55A252",
+          "url": "http://127.0.0.1:4301/",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 1656,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        }
+      ]
+    },
+    {
+      "framework": "Astro",
+      "route": "/products",
+      "run": 1,
+      "url": "http://127.0.0.1:4301/products",
+      "externalJsRequests": 0,
+      "externalJsTransferBytes": 0,
+      "decodedExternalJsBytes": 0,
+      "executableInlineJsBytes": 660,
+      "totalJsSourceBytes": 660,
+      "nonExecutableScriptBytes": 0,
+      "totalPageTransferBytes": 20365,
+      "inlineScripts": [
+        {
+          "type": "module",
+          "classification": "executable",
+          "bytes": 660
+        }
+      ],
+      "resources": [
+        {
+          "requestId": "D900108742E048305CC0FE8214BD8095",
+          "url": "http://127.0.0.1:4301/products",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 3709,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "26108.2",
+          "url": "http://127.0.0.1:4301/images/product-01.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 763,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "26108.3",
+          "url": "http://127.0.0.1:4301/images/product-02.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 776,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "26108.4",
+          "url": "http://127.0.0.1:4301/images/product-03.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1192,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "26108.5",
+          "url": "http://127.0.0.1:4301/images/product-04.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1196,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "26108.6",
+          "url": "http://127.0.0.1:4301/images/product-05.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1198,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "26108.7",
+          "url": "http://127.0.0.1:4301/images/product-06.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1156,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "26108.8",
+          "url": "http://127.0.0.1:4301/images/product-07.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1210,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "26108.9",
+          "url": "http://127.0.0.1:4301/images/product-08.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1223,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "26108.10",
+          "url": "http://127.0.0.1:4301/images/product-09.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1199,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "26108.11",
+          "url": "http://127.0.0.1:4301/images/product-10.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1232,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "26108.13",
+          "url": "http://127.0.0.1:4301/images/product-12.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1095,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "26108.14",
+          "url": "http://127.0.0.1:4301/images/product-13.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1208,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "26108.15",
+          "url": "http://127.0.0.1:4301/images/product-14.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1243,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "26108.12",
+          "url": "http://127.0.0.1:4301/images/product-11.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 777,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "26108.16",
+          "url": "http://127.0.0.1:4301/images/product-15.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1188,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        }
+      ]
+    },
+    {
+      "framework": "Astro",
+      "route": "/products",
+      "run": 2,
+      "url": "http://127.0.0.1:4301/products",
+      "externalJsRequests": 0,
+      "externalJsTransferBytes": 0,
+      "decodedExternalJsBytes": 0,
+      "executableInlineJsBytes": 660,
+      "totalJsSourceBytes": 660,
+      "nonExecutableScriptBytes": 0,
+      "totalPageTransferBytes": 20365,
+      "inlineScripts": [
+        {
+          "type": "module",
+          "classification": "executable",
+          "bytes": 660
+        }
+      ],
+      "resources": [
+        {
+          "requestId": "94715B3905639722423CBC0C17F349FB",
+          "url": "http://127.0.0.1:4301/products",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 3709,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28628.2",
+          "url": "http://127.0.0.1:4301/images/product-01.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 763,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28628.3",
+          "url": "http://127.0.0.1:4301/images/product-02.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 776,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28628.4",
+          "url": "http://127.0.0.1:4301/images/product-03.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1192,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28628.5",
+          "url": "http://127.0.0.1:4301/images/product-04.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1196,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28628.6",
+          "url": "http://127.0.0.1:4301/images/product-05.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1198,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28628.7",
+          "url": "http://127.0.0.1:4301/images/product-06.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1156,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28628.8",
+          "url": "http://127.0.0.1:4301/images/product-07.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1210,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28628.9",
+          "url": "http://127.0.0.1:4301/images/product-08.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1223,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28628.10",
+          "url": "http://127.0.0.1:4301/images/product-09.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1199,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28628.11",
+          "url": "http://127.0.0.1:4301/images/product-10.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1232,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28628.13",
+          "url": "http://127.0.0.1:4301/images/product-12.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1095,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28628.14",
+          "url": "http://127.0.0.1:4301/images/product-13.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1208,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28628.15",
+          "url": "http://127.0.0.1:4301/images/product-14.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1243,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28628.12",
+          "url": "http://127.0.0.1:4301/images/product-11.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 777,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28628.16",
+          "url": "http://127.0.0.1:4301/images/product-15.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1188,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        }
+      ]
+    },
+    {
+      "framework": "Astro",
+      "route": "/products",
+      "run": 3,
+      "url": "http://127.0.0.1:4301/products",
+      "externalJsRequests": 0,
+      "externalJsTransferBytes": 0,
+      "decodedExternalJsBytes": 0,
+      "executableInlineJsBytes": 660,
+      "totalJsSourceBytes": 660,
+      "nonExecutableScriptBytes": 0,
+      "totalPageTransferBytes": 20365,
+      "inlineScripts": [
+        {
+          "type": "module",
+          "classification": "executable",
+          "bytes": 660
+        }
+      ],
+      "resources": [
+        {
+          "requestId": "072F10B399F9234EE11E0DBDB0D4C919",
+          "url": "http://127.0.0.1:4301/products",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 3709,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "33424.2",
+          "url": "http://127.0.0.1:4301/images/product-01.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 763,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "33424.3",
+          "url": "http://127.0.0.1:4301/images/product-02.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 776,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "33424.5",
+          "url": "http://127.0.0.1:4301/images/product-04.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1196,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "33424.4",
+          "url": "http://127.0.0.1:4301/images/product-03.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1192,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "33424.6",
+          "url": "http://127.0.0.1:4301/images/product-05.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1198,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "33424.7",
+          "url": "http://127.0.0.1:4301/images/product-06.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1156,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "33424.8",
+          "url": "http://127.0.0.1:4301/images/product-07.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1210,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "33424.9",
+          "url": "http://127.0.0.1:4301/images/product-08.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1223,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "33424.10",
+          "url": "http://127.0.0.1:4301/images/product-09.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1199,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "33424.11",
+          "url": "http://127.0.0.1:4301/images/product-10.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1232,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "33424.13",
+          "url": "http://127.0.0.1:4301/images/product-12.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1095,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "33424.12",
+          "url": "http://127.0.0.1:4301/images/product-11.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 777,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "33424.14",
+          "url": "http://127.0.0.1:4301/images/product-13.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1208,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "33424.15",
+          "url": "http://127.0.0.1:4301/images/product-14.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1243,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "33424.16",
+          "url": "http://127.0.0.1:4301/images/product-15.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1188,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        }
+      ]
+    },
+    {
+      "framework": "Astro",
+      "route": "/products/1",
+      "run": 1,
+      "url": "http://127.0.0.1:4301/products/1",
+      "externalJsRequests": 0,
+      "externalJsTransferBytes": 0,
+      "decodedExternalJsBytes": 0,
+      "executableInlineJsBytes": 695,
+      "totalJsSourceBytes": 695,
+      "nonExecutableScriptBytes": 0,
+      "totalPageTransferBytes": 3071,
+      "inlineScripts": [
+        {
+          "type": "module",
+          "classification": "executable",
+          "bytes": 695
+        }
+      ],
+      "resources": [
+        {
+          "requestId": "6541B6D0DFA14BDBC7ECC3FE0B021B56",
+          "url": "http://127.0.0.1:4301/products/1",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 2308,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "26680.2",
+          "url": "http://127.0.0.1:4301/images/product-01.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 763,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        }
+      ]
+    },
+    {
+      "framework": "Astro",
+      "route": "/products/1",
+      "run": 2,
+      "url": "http://127.0.0.1:4301/products/1",
+      "externalJsRequests": 0,
+      "externalJsTransferBytes": 0,
+      "decodedExternalJsBytes": 0,
+      "executableInlineJsBytes": 695,
+      "totalJsSourceBytes": 695,
+      "nonExecutableScriptBytes": 0,
+      "totalPageTransferBytes": 3071,
+      "inlineScripts": [
+        {
+          "type": "module",
+          "classification": "executable",
+          "bytes": 695
+        }
+      ],
+      "resources": [
+        {
+          "requestId": "AA867B27292886147A9FDF46F8673F3A",
+          "url": "http://127.0.0.1:4301/products/1",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 2308,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28580.2",
+          "url": "http://127.0.0.1:4301/images/product-01.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 763,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        }
+      ]
+    },
+    {
+      "framework": "Astro",
+      "route": "/products/1",
+      "run": 3,
+      "url": "http://127.0.0.1:4301/products/1",
+      "externalJsRequests": 0,
+      "externalJsTransferBytes": 0,
+      "decodedExternalJsBytes": 0,
+      "executableInlineJsBytes": 695,
+      "totalJsSourceBytes": 695,
+      "nonExecutableScriptBytes": 0,
+      "totalPageTransferBytes": 3071,
+      "inlineScripts": [
+        {
+          "type": "module",
+          "classification": "executable",
+          "bytes": 695
+        }
+      ],
+      "resources": [
+        {
+          "requestId": "82CE32787D2E55F6299BBF449D76DE4E",
+          "url": "http://127.0.0.1:4301/products/1",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 2308,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "30152.2",
+          "url": "http://127.0.0.1:4301/images/product-01.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 763,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        }
+      ]
+    },
+    {
+      "framework": "SvelteKit",
+      "route": "/",
+      "run": 1,
+      "url": "http://127.0.0.1:4302/",
+      "externalJsRequests": 9,
+      "externalJsTransferBytes": 35173,
+      "decodedExternalJsBytes": 81947,
+      "executableInlineJsBytes": 473,
+      "totalJsSourceBytes": 82420,
+      "nonExecutableScriptBytes": 0,
+      "totalPageTransferBytes": 39920,
+      "inlineScripts": [
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 473
+        }
+      ],
+      "resources": [
+        {
+          "requestId": "D8791CDE0BA269B2DF7F1AFED38FF52F",
+          "url": "http://127.0.0.1:4302/",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 2865,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "32940.2",
+          "url": "http://127.0.0.1:4302/_app/immutable/assets/0.CWtWuuw9.css",
+          "status": 200,
+          "mimeType": "text/css",
+          "type": "Stylesheet",
+          "encodedDataLength": 1103,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "32940.3",
+          "url": "http://127.0.0.1:4302/_app/immutable/assets/2._EnNK1Me.css",
+          "status": 200,
+          "mimeType": "text/css",
+          "type": "Stylesheet",
+          "encodedDataLength": 779,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "32940.4",
+          "url": "http://127.0.0.1:4302/_app/immutable/entry/start.CeNgo4GL.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 359,
+          "decodedBodyBytes": 77,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "32940.9",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/xihTtKlq.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 347,
+          "decodedBodyBytes": 65,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "32940.7",
+          "url": "http://127.0.0.1:4302/_app/immutable/entry/app.Bx159XCz.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1682,
+          "decodedBodyBytes": 3076,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "32940.8",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/kNaey6uv.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1019,
+          "decodedBodyBytes": 1208,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "32940.5",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/GF0VdTJo.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 10407,
+          "decodedBodyBytes": 26177,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "32940.10",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/0.B5LEayJl.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1574,
+          "decodedBodyBytes": 2827,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "32940.11",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/2.CA7_PBT-.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 870,
+          "decodedBodyBytes": 1205,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "32940.6",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/DEovUHYX.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 18004,
+          "decodedBodyBytes": 46684,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "32940.16",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/1.X8n4PisB.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 911,
+          "decodedBodyBytes": 628,
+          "bodyReadError": null,
+          "isJavaScript": true
+        }
+      ]
+    },
+    {
+      "framework": "SvelteKit",
+      "route": "/",
+      "run": 2,
+      "url": "http://127.0.0.1:4302/",
+      "externalJsRequests": 9,
+      "externalJsTransferBytes": 35173,
+      "decodedExternalJsBytes": 81947,
+      "executableInlineJsBytes": 473,
+      "totalJsSourceBytes": 82420,
+      "nonExecutableScriptBytes": 0,
+      "totalPageTransferBytes": 39920,
+      "inlineScripts": [
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 473
+        }
+      ],
+      "resources": [
+        {
+          "requestId": "863471117D1DBAA009C536BFCACB1474",
+          "url": "http://127.0.0.1:4302/",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 2865,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "14268.2",
+          "url": "http://127.0.0.1:4302/_app/immutable/assets/0.CWtWuuw9.css",
+          "status": 200,
+          "mimeType": "text/css",
+          "type": "Stylesheet",
+          "encodedDataLength": 1103,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "14268.3",
+          "url": "http://127.0.0.1:4302/_app/immutable/assets/2._EnNK1Me.css",
+          "status": 200,
+          "mimeType": "text/css",
+          "type": "Stylesheet",
+          "encodedDataLength": 779,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "14268.4",
+          "url": "http://127.0.0.1:4302/_app/immutable/entry/start.CeNgo4GL.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 359,
+          "decodedBodyBytes": 77,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "14268.9",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/xihTtKlq.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 347,
+          "decodedBodyBytes": 65,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "14268.7",
+          "url": "http://127.0.0.1:4302/_app/immutable/entry/app.Bx159XCz.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1682,
+          "decodedBodyBytes": 3076,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "14268.8",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/kNaey6uv.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1019,
+          "decodedBodyBytes": 1208,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "14268.5",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/GF0VdTJo.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 10407,
+          "decodedBodyBytes": 26177,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "14268.10",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/0.B5LEayJl.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1574,
+          "decodedBodyBytes": 2827,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "14268.11",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/2.CA7_PBT-.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 870,
+          "decodedBodyBytes": 1205,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "14268.6",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/DEovUHYX.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 18004,
+          "decodedBodyBytes": 46684,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "14268.16",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/1.X8n4PisB.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 911,
+          "decodedBodyBytes": 628,
+          "bodyReadError": null,
+          "isJavaScript": true
+        }
+      ]
+    },
+    {
+      "framework": "SvelteKit",
+      "route": "/",
+      "run": 3,
+      "url": "http://127.0.0.1:4302/",
+      "externalJsRequests": 9,
+      "externalJsTransferBytes": 35173,
+      "decodedExternalJsBytes": 81947,
+      "executableInlineJsBytes": 473,
+      "totalJsSourceBytes": 82420,
+      "nonExecutableScriptBytes": 0,
+      "totalPageTransferBytes": 39920,
+      "inlineScripts": [
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 473
+        }
+      ],
+      "resources": [
+        {
+          "requestId": "F79611663DB075F9CA2BC1D34DC5541A",
+          "url": "http://127.0.0.1:4302/",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 2865,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "13072.2",
+          "url": "http://127.0.0.1:4302/_app/immutable/assets/0.CWtWuuw9.css",
+          "status": 200,
+          "mimeType": "text/css",
+          "type": "Stylesheet",
+          "encodedDataLength": 1103,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "13072.3",
+          "url": "http://127.0.0.1:4302/_app/immutable/assets/2._EnNK1Me.css",
+          "status": 200,
+          "mimeType": "text/css",
+          "type": "Stylesheet",
+          "encodedDataLength": 779,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "13072.4",
+          "url": "http://127.0.0.1:4302/_app/immutable/entry/start.CeNgo4GL.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 359,
+          "decodedBodyBytes": 77,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "13072.9",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/xihTtKlq.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 347,
+          "decodedBodyBytes": 65,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "13072.7",
+          "url": "http://127.0.0.1:4302/_app/immutable/entry/app.Bx159XCz.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1682,
+          "decodedBodyBytes": 3076,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "13072.8",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/kNaey6uv.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1019,
+          "decodedBodyBytes": 1208,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "13072.5",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/GF0VdTJo.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 10407,
+          "decodedBodyBytes": 26177,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "13072.10",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/0.B5LEayJl.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1574,
+          "decodedBodyBytes": 2827,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "13072.11",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/2.CA7_PBT-.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 870,
+          "decodedBodyBytes": 1205,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "13072.6",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/DEovUHYX.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 18004,
+          "decodedBodyBytes": 46684,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "13072.16",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/1.X8n4PisB.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 911,
+          "decodedBodyBytes": 628,
+          "bodyReadError": null,
+          "isJavaScript": true
+        }
+      ]
+    },
+    {
+      "framework": "SvelteKit",
+      "route": "/products",
+      "run": 1,
+      "url": "http://127.0.0.1:4302/products",
+      "externalJsRequests": 10,
+      "externalJsTransferBytes": 37357,
+      "decodedExternalJsBytes": 86558,
+      "executableInlineJsBytes": 473,
+      "totalJsSourceBytes": 87031,
+      "nonExecutableScriptBytes": 0,
+      "totalPageTransferBytes": 59317,
+      "inlineScripts": [
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 473
+        }
+      ],
+      "resources": [
+        {
+          "requestId": "D6DDAFA734F7FE830CB5C33525D3AF76",
+          "url": "http://127.0.0.1:4302/products",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 3613,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28348.2",
+          "url": "http://127.0.0.1:4302/_app/immutable/assets/0.CWtWuuw9.css",
+          "status": 200,
+          "mimeType": "text/css",
+          "type": "Stylesheet",
+          "encodedDataLength": 1103,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28348.3",
+          "url": "http://127.0.0.1:4302/_app/immutable/assets/3.DwcTvM9y.css",
+          "status": 200,
+          "mimeType": "text/css",
+          "type": "Stylesheet",
+          "encodedDataLength": 1131,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28348.15",
+          "url": "http://127.0.0.1:4302/images/product-01.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 726,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28348.16",
+          "url": "http://127.0.0.1:4302/images/product-02.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 739,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28348.17",
+          "url": "http://127.0.0.1:4302/images/product-03.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1156,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28348.18",
+          "url": "http://127.0.0.1:4302/images/product-04.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1160,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28348.19",
+          "url": "http://127.0.0.1:4302/images/product-05.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1162,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28348.20",
+          "url": "http://127.0.0.1:4302/images/product-06.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1120,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28348.21",
+          "url": "http://127.0.0.1:4302/images/product-07.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1174,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28348.22",
+          "url": "http://127.0.0.1:4302/images/product-08.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1187,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28348.23",
+          "url": "http://127.0.0.1:4302/images/product-09.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1163,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28348.24",
+          "url": "http://127.0.0.1:4302/images/product-10.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1196,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28348.25",
+          "url": "http://127.0.0.1:4302/images/product-11.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 740,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28348.26",
+          "url": "http://127.0.0.1:4302/images/product-12.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1059,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28348.27",
+          "url": "http://127.0.0.1:4302/images/product-13.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1172,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28348.28",
+          "url": "http://127.0.0.1:4302/images/product-14.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1207,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28348.29",
+          "url": "http://127.0.0.1:4302/images/product-15.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1152,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "28348.4",
+          "url": "http://127.0.0.1:4302/_app/immutable/entry/start.CeNgo4GL.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 359,
+          "decodedBodyBytes": 77,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "28348.9",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/xihTtKlq.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 347,
+          "decodedBodyBytes": 65,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "28348.7",
+          "url": "http://127.0.0.1:4302/_app/immutable/entry/app.Bx159XCz.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1682,
+          "decodedBodyBytes": 3076,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "28348.8",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/kNaey6uv.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1019,
+          "decodedBodyBytes": 1208,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "28348.5",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/GF0VdTJo.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 10407,
+          "decodedBodyBytes": 26177,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "28348.10",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/0.B5LEayJl.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1574,
+          "decodedBodyBytes": 2827,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "28348.11",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/3.D36SEDcA.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1681,
+          "decodedBodyBytes": 2882,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "28348.6",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/DEovUHYX.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 18004,
+          "decodedBodyBytes": 46684,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "28348.12",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/l9rtdfWx.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1373,
+          "decodedBodyBytes": 2934,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "28348.47",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/1.X8n4PisB.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 911,
+          "decodedBodyBytes": 628,
+          "bodyReadError": null,
+          "isJavaScript": true
+        }
+      ]
+    },
+    {
+      "framework": "SvelteKit",
+      "route": "/products",
+      "run": 2,
+      "url": "http://127.0.0.1:4302/products",
+      "externalJsRequests": 10,
+      "externalJsTransferBytes": 37357,
+      "decodedExternalJsBytes": 86558,
+      "executableInlineJsBytes": 473,
+      "totalJsSourceBytes": 87031,
+      "nonExecutableScriptBytes": 0,
+      "totalPageTransferBytes": 59317,
+      "inlineScripts": [
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 473
+        }
+      ],
+      "resources": [
+        {
+          "requestId": "83F82EC23AD53DA2F66AE49394DDF04A",
+          "url": "http://127.0.0.1:4302/products",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 3613,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "13212.2",
+          "url": "http://127.0.0.1:4302/_app/immutable/assets/0.CWtWuuw9.css",
+          "status": 200,
+          "mimeType": "text/css",
+          "type": "Stylesheet",
+          "encodedDataLength": 1103,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "13212.3",
+          "url": "http://127.0.0.1:4302/_app/immutable/assets/3.DwcTvM9y.css",
+          "status": 200,
+          "mimeType": "text/css",
+          "type": "Stylesheet",
+          "encodedDataLength": 1131,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "13212.15",
+          "url": "http://127.0.0.1:4302/images/product-01.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 726,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "13212.16",
+          "url": "http://127.0.0.1:4302/images/product-02.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 739,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "13212.17",
+          "url": "http://127.0.0.1:4302/images/product-03.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1156,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "13212.18",
+          "url": "http://127.0.0.1:4302/images/product-04.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1160,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "13212.19",
+          "url": "http://127.0.0.1:4302/images/product-05.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1162,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "13212.20",
+          "url": "http://127.0.0.1:4302/images/product-06.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1120,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "13212.21",
+          "url": "http://127.0.0.1:4302/images/product-07.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1174,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "13212.22",
+          "url": "http://127.0.0.1:4302/images/product-08.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1187,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "13212.23",
+          "url": "http://127.0.0.1:4302/images/product-09.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1163,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "13212.24",
+          "url": "http://127.0.0.1:4302/images/product-10.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1196,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "13212.26",
+          "url": "http://127.0.0.1:4302/images/product-12.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1059,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "13212.27",
+          "url": "http://127.0.0.1:4302/images/product-13.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1172,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "13212.28",
+          "url": "http://127.0.0.1:4302/images/product-14.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1207,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "13212.25",
+          "url": "http://127.0.0.1:4302/images/product-11.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 740,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "13212.29",
+          "url": "http://127.0.0.1:4302/images/product-15.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1152,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "13212.4",
+          "url": "http://127.0.0.1:4302/_app/immutable/entry/start.CeNgo4GL.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 359,
+          "decodedBodyBytes": 77,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "13212.9",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/xihTtKlq.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 347,
+          "decodedBodyBytes": 65,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "13212.7",
+          "url": "http://127.0.0.1:4302/_app/immutable/entry/app.Bx159XCz.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1682,
+          "decodedBodyBytes": 3076,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "13212.8",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/kNaey6uv.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1019,
+          "decodedBodyBytes": 1208,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "13212.5",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/GF0VdTJo.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 10407,
+          "decodedBodyBytes": 26177,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "13212.10",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/0.B5LEayJl.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1574,
+          "decodedBodyBytes": 2827,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "13212.6",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/DEovUHYX.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 18004,
+          "decodedBodyBytes": 46684,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "13212.11",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/3.D36SEDcA.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1681,
+          "decodedBodyBytes": 2882,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "13212.12",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/l9rtdfWx.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1373,
+          "decodedBodyBytes": 2934,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "13212.47",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/1.X8n4PisB.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 911,
+          "decodedBodyBytes": 628,
+          "bodyReadError": null,
+          "isJavaScript": true
+        }
+      ]
+    },
+    {
+      "framework": "SvelteKit",
+      "route": "/products",
+      "run": 3,
+      "url": "http://127.0.0.1:4302/products",
+      "externalJsRequests": 10,
+      "externalJsTransferBytes": 37357,
+      "decodedExternalJsBytes": 86558,
+      "executableInlineJsBytes": 473,
+      "totalJsSourceBytes": 87031,
+      "nonExecutableScriptBytes": 0,
+      "totalPageTransferBytes": 59317,
+      "inlineScripts": [
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 473
+        }
+      ],
+      "resources": [
+        {
+          "requestId": "7455B29A8425E6B14D0CE71F0CEDECCB",
+          "url": "http://127.0.0.1:4302/products",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 3613,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "25940.2",
+          "url": "http://127.0.0.1:4302/_app/immutable/assets/0.CWtWuuw9.css",
+          "status": 200,
+          "mimeType": "text/css",
+          "type": "Stylesheet",
+          "encodedDataLength": 1103,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "25940.3",
+          "url": "http://127.0.0.1:4302/_app/immutable/assets/3.DwcTvM9y.css",
+          "status": 200,
+          "mimeType": "text/css",
+          "type": "Stylesheet",
+          "encodedDataLength": 1131,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "25940.17",
+          "url": "http://127.0.0.1:4302/images/product-03.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1156,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "25940.15",
+          "url": "http://127.0.0.1:4302/images/product-01.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 726,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "25940.16",
+          "url": "http://127.0.0.1:4302/images/product-02.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 739,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "25940.18",
+          "url": "http://127.0.0.1:4302/images/product-04.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1160,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "25940.19",
+          "url": "http://127.0.0.1:4302/images/product-05.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1162,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "25940.20",
+          "url": "http://127.0.0.1:4302/images/product-06.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1120,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "25940.21",
+          "url": "http://127.0.0.1:4302/images/product-07.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1174,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "25940.22",
+          "url": "http://127.0.0.1:4302/images/product-08.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1187,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "25940.23",
+          "url": "http://127.0.0.1:4302/images/product-09.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1163,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "25940.24",
+          "url": "http://127.0.0.1:4302/images/product-10.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1196,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "25940.25",
+          "url": "http://127.0.0.1:4302/images/product-11.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 740,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "25940.26",
+          "url": "http://127.0.0.1:4302/images/product-12.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1059,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "25940.27",
+          "url": "http://127.0.0.1:4302/images/product-13.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1172,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "25940.28",
+          "url": "http://127.0.0.1:4302/images/product-14.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1207,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "25940.29",
+          "url": "http://127.0.0.1:4302/images/product-15.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1152,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "25940.4",
+          "url": "http://127.0.0.1:4302/_app/immutable/entry/start.CeNgo4GL.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 359,
+          "decodedBodyBytes": 77,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "25940.9",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/xihTtKlq.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 347,
+          "decodedBodyBytes": 65,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "25940.7",
+          "url": "http://127.0.0.1:4302/_app/immutable/entry/app.Bx159XCz.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1682,
+          "decodedBodyBytes": 3076,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "25940.8",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/kNaey6uv.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1019,
+          "decodedBodyBytes": 1208,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "25940.10",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/0.B5LEayJl.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1574,
+          "decodedBodyBytes": 2827,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "25940.5",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/GF0VdTJo.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 10407,
+          "decodedBodyBytes": 26177,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "25940.11",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/3.D36SEDcA.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1681,
+          "decodedBodyBytes": 2882,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "25940.6",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/DEovUHYX.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 18004,
+          "decodedBodyBytes": 46684,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "25940.12",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/l9rtdfWx.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1373,
+          "decodedBodyBytes": 2934,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "25940.47",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/1.X8n4PisB.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 911,
+          "decodedBodyBytes": 628,
+          "bodyReadError": null,
+          "isJavaScript": true
+        }
+      ]
+    },
+    {
+      "framework": "SvelteKit",
+      "route": "/products/1",
+      "run": 1,
+      "url": "http://127.0.0.1:4302/products/1",
+      "externalJsRequests": 10,
+      "externalJsTransferBytes": 37398,
+      "decodedExternalJsBytes": 86747,
+      "executableInlineJsBytes": 476,
+      "totalJsSourceBytes": 87223,
+      "nonExecutableScriptBytes": 0,
+      "totalPageTransferBytes": 43282,
+      "inlineScripts": [
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 476
+        }
+      ],
+      "resources": [
+        {
+          "requestId": "37CEB7220B5C38A3946227B3B4750DDD",
+          "url": "http://127.0.0.1:4302/products/1",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 3023,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "26136.2",
+          "url": "http://127.0.0.1:4302/_app/immutable/assets/0.CWtWuuw9.css",
+          "status": 200,
+          "mimeType": "text/css",
+          "type": "Stylesheet",
+          "encodedDataLength": 1103,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "26136.3",
+          "url": "http://127.0.0.1:4302/_app/immutable/assets/4.dusfs_aq.css",
+          "status": 200,
+          "mimeType": "text/css",
+          "type": "Stylesheet",
+          "encodedDataLength": 1032,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "26136.15",
+          "url": "http://127.0.0.1:4302/images/product-01.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 726,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "26136.4",
+          "url": "http://127.0.0.1:4302/_app/immutable/entry/start.CeNgo4GL.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 359,
+          "decodedBodyBytes": 77,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "26136.7",
+          "url": "http://127.0.0.1:4302/_app/immutable/entry/app.Bx159XCz.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1682,
+          "decodedBodyBytes": 3076,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "26136.9",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/xihTtKlq.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 347,
+          "decodedBodyBytes": 65,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "26136.8",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/kNaey6uv.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1019,
+          "decodedBodyBytes": 1208,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "26136.5",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/GF0VdTJo.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 10407,
+          "decodedBodyBytes": 26177,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "26136.10",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/0.B5LEayJl.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1574,
+          "decodedBodyBytes": 2827,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "26136.11",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/4.ADU3KOos.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1722,
+          "decodedBodyBytes": 3071,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "26136.12",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/l9rtdfWx.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1373,
+          "decodedBodyBytes": 2934,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "26136.6",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/DEovUHYX.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 18004,
+          "decodedBodyBytes": 46684,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "26136.19",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/1.X8n4PisB.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 911,
+          "decodedBodyBytes": 628,
+          "bodyReadError": null,
+          "isJavaScript": true
+        }
+      ]
+    },
+    {
+      "framework": "SvelteKit",
+      "route": "/products/1",
+      "run": 2,
+      "url": "http://127.0.0.1:4302/products/1",
+      "externalJsRequests": 10,
+      "externalJsTransferBytes": 37398,
+      "decodedExternalJsBytes": 86747,
+      "executableInlineJsBytes": 476,
+      "totalJsSourceBytes": 87223,
+      "nonExecutableScriptBytes": 0,
+      "totalPageTransferBytes": 43282,
+      "inlineScripts": [
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 476
+        }
+      ],
+      "resources": [
+        {
+          "requestId": "64480DF78979E18F72B215A7D4078396",
+          "url": "http://127.0.0.1:4302/products/1",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 3023,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "32424.2",
+          "url": "http://127.0.0.1:4302/_app/immutable/assets/0.CWtWuuw9.css",
+          "status": 200,
+          "mimeType": "text/css",
+          "type": "Stylesheet",
+          "encodedDataLength": 1103,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "32424.3",
+          "url": "http://127.0.0.1:4302/_app/immutable/assets/4.dusfs_aq.css",
+          "status": 200,
+          "mimeType": "text/css",
+          "type": "Stylesheet",
+          "encodedDataLength": 1032,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "32424.4",
+          "url": "http://127.0.0.1:4302/_app/immutable/entry/start.CeNgo4GL.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 359,
+          "decodedBodyBytes": 77,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "32424.9",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/xihTtKlq.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 347,
+          "decodedBodyBytes": 65,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "32424.7",
+          "url": "http://127.0.0.1:4302/_app/immutable/entry/app.Bx159XCz.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1682,
+          "decodedBodyBytes": 3076,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "32424.8",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/kNaey6uv.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1019,
+          "decodedBodyBytes": 1208,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "32424.5",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/GF0VdTJo.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 10407,
+          "decodedBodyBytes": 26177,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "32424.10",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/0.B5LEayJl.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1574,
+          "decodedBodyBytes": 2827,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "32424.6",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/DEovUHYX.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 18004,
+          "decodedBodyBytes": 46684,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "32424.15",
+          "url": "http://127.0.0.1:4302/images/product-01.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 726,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "32424.11",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/4.ADU3KOos.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1722,
+          "decodedBodyBytes": 3071,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "32424.12",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/l9rtdfWx.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1373,
+          "decodedBodyBytes": 2934,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "32424.19",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/1.X8n4PisB.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 911,
+          "decodedBodyBytes": 628,
+          "bodyReadError": null,
+          "isJavaScript": true
+        }
+      ]
+    },
+    {
+      "framework": "SvelteKit",
+      "route": "/products/1",
+      "run": 3,
+      "url": "http://127.0.0.1:4302/products/1",
+      "externalJsRequests": 10,
+      "externalJsTransferBytes": 37398,
+      "decodedExternalJsBytes": 86747,
+      "executableInlineJsBytes": 476,
+      "totalJsSourceBytes": 87223,
+      "nonExecutableScriptBytes": 0,
+      "totalPageTransferBytes": 43282,
+      "inlineScripts": [
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 476
+        }
+      ],
+      "resources": [
+        {
+          "requestId": "A1771D5EE1450B8B41DA4E2FB3A9044B",
+          "url": "http://127.0.0.1:4302/products/1",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 3023,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "32384.2",
+          "url": "http://127.0.0.1:4302/_app/immutable/assets/0.CWtWuuw9.css",
+          "status": 200,
+          "mimeType": "text/css",
+          "type": "Stylesheet",
+          "encodedDataLength": 1103,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "32384.3",
+          "url": "http://127.0.0.1:4302/_app/immutable/assets/4.dusfs_aq.css",
+          "status": 200,
+          "mimeType": "text/css",
+          "type": "Stylesheet",
+          "encodedDataLength": 1032,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "32384.15",
+          "url": "http://127.0.0.1:4302/images/product-01.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 726,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "32384.4",
+          "url": "http://127.0.0.1:4302/_app/immutable/entry/start.CeNgo4GL.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 359,
+          "decodedBodyBytes": 77,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "32384.9",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/xihTtKlq.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 347,
+          "decodedBodyBytes": 65,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "32384.7",
+          "url": "http://127.0.0.1:4302/_app/immutable/entry/app.Bx159XCz.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1682,
+          "decodedBodyBytes": 3076,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "32384.8",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/kNaey6uv.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1019,
+          "decodedBodyBytes": 1208,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "32384.5",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/GF0VdTJo.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 10407,
+          "decodedBodyBytes": 26177,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "32384.6",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/DEovUHYX.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 18004,
+          "decodedBodyBytes": 46684,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "32384.10",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/0.B5LEayJl.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1574,
+          "decodedBodyBytes": 2827,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "32384.11",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/4.ADU3KOos.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1722,
+          "decodedBodyBytes": 3071,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "32384.12",
+          "url": "http://127.0.0.1:4302/_app/immutable/chunks/l9rtdfWx.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1373,
+          "decodedBodyBytes": 2934,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "32384.19",
+          "url": "http://127.0.0.1:4302/_app/immutable/nodes/1.X8n4PisB.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 911,
+          "decodedBodyBytes": 628,
+          "bodyReadError": null,
+          "isJavaScript": true
+        }
+      ]
+    },
+    {
+      "framework": "Qwik",
+      "route": "/",
+      "run": 1,
+      "url": "http://127.0.0.1:4303/",
+      "externalJsRequests": 11,
+      "externalJsTransferBytes": 38689,
+      "decodedExternalJsBytes": 77906,
+      "executableInlineJsBytes": 811,
+      "totalJsSourceBytes": 78717,
+      "nonExecutableScriptBytes": 1611,
+      "totalPageTransferBytes": 44632,
+      "inlineScripts": [
+        {
+          "type": "module",
+          "classification": "executable",
+          "bytes": 109
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 0
+        },
+        {
+          "type": "module",
+          "classification": "executable",
+          "bytes": 240
+        },
+        {
+          "type": "qwik/json",
+          "classification": "non-executable",
+          "bytes": 1611
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 357
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 105
+        }
+      ],
+      "resources": [
+        {
+          "requestId": "79E6912C24AD3DE072899D2C5CA68C5D",
+          "url": "http://127.0.0.1:4303/",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 4069,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "36048.5",
+          "url": "http://127.0.0.1:4303/assets/BrZuW_cT-bundle-graph.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Other",
+          "encodedDataLength": 1203,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "36048.2",
+          "url": "http://127.0.0.1:4303/build/q-naDMFAHy.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 2059,
+          "decodedBodyBytes": 3100,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "36048.4",
+          "url": "http://127.0.0.1:4303/build/q-BKZ00VYc.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 2383,
+          "decodedBodyBytes": 3729,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "36048.6",
+          "url": "http://127.0.0.1:4303/build/q-BGwkMtXL.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 20756,
+          "decodedBodyBytes": 50379,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "36048.12",
+          "url": "http://127.0.0.1:4303/build/q-BBa74niC.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 668,
+          "decodedBodyBytes": 336,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "36048.14",
+          "url": "http://127.0.0.1:4303/build/q-DRthnSQJ.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 632,
+          "decodedBodyBytes": 300,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "36048.17",
+          "url": "http://127.0.0.1:4303/build/q-CG7MbxBR.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1162,
+          "decodedBodyBytes": 830,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "36048.13",
+          "url": "http://127.0.0.1:4303/build/q-6ap5x88a.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 3199,
+          "decodedBodyBytes": 6999,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "36048.16",
+          "url": "http://127.0.0.1:4303/build/q-BihhsMc7.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1466,
+          "decodedBodyBytes": 2237,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "36048.18",
+          "url": "http://127.0.0.1:4303/build/q-D54tdL7B.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1375,
+          "decodedBodyBytes": 2020,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "36048.15",
+          "url": "http://127.0.0.1:4303/build/q-DzQKcuql.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 3699,
+          "decodedBodyBytes": 7018,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "36048.19",
+          "url": "http://127.0.0.1:4303/build/q-DntOPMWx.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1290,
+          "decodedBodyBytes": 958,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "36048.20",
+          "url": "http://127.0.0.1:4303/q-data.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Fetch",
+          "encodedDataLength": 331,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "36048.21",
+          "url": "http://127.0.0.1:4303/products/q-data.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Fetch",
+          "encodedDataLength": 340,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        }
+      ]
+    },
+    {
+      "framework": "Qwik",
+      "route": "/",
+      "run": 2,
+      "url": "http://127.0.0.1:4303/",
+      "externalJsRequests": 11,
+      "externalJsTransferBytes": 38689,
+      "decodedExternalJsBytes": 77906,
+      "executableInlineJsBytes": 810,
+      "totalJsSourceBytes": 78716,
+      "nonExecutableScriptBytes": 1611,
+      "totalPageTransferBytes": 44631,
+      "inlineScripts": [
+        {
+          "type": "module",
+          "classification": "executable",
+          "bytes": 109
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 0
+        },
+        {
+          "type": "module",
+          "classification": "executable",
+          "bytes": 240
+        },
+        {
+          "type": "qwik/json",
+          "classification": "non-executable",
+          "bytes": 1611
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 356
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 105
+        }
+      ],
+      "resources": [
+        {
+          "requestId": "A1C33C72888C6D05AAC95FDDA9810A79",
+          "url": "http://127.0.0.1:4303/",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 4068,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "22936.2",
+          "url": "http://127.0.0.1:4303/build/q-naDMFAHy.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 2059,
+          "decodedBodyBytes": 3100,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "22936.5",
+          "url": "http://127.0.0.1:4303/assets/BrZuW_cT-bundle-graph.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Other",
+          "encodedDataLength": 1203,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "22936.4",
+          "url": "http://127.0.0.1:4303/build/q-BKZ00VYc.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 2383,
+          "decodedBodyBytes": 3729,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "22936.6",
+          "url": "http://127.0.0.1:4303/build/q-BGwkMtXL.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 20756,
+          "decodedBodyBytes": 50379,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "22936.12",
+          "url": "http://127.0.0.1:4303/build/q-BBa74niC.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 668,
+          "decodedBodyBytes": 336,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "22936.14",
+          "url": "http://127.0.0.1:4303/build/q-DRthnSQJ.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 632,
+          "decodedBodyBytes": 300,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "22936.13",
+          "url": "http://127.0.0.1:4303/build/q-6ap5x88a.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 3199,
+          "decodedBodyBytes": 6999,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "22936.17",
+          "url": "http://127.0.0.1:4303/build/q-CG7MbxBR.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1162,
+          "decodedBodyBytes": 830,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "22936.16",
+          "url": "http://127.0.0.1:4303/build/q-BihhsMc7.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1466,
+          "decodedBodyBytes": 2237,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "22936.19",
+          "url": "http://127.0.0.1:4303/build/q-DntOPMWx.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1290,
+          "decodedBodyBytes": 958,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "22936.18",
+          "url": "http://127.0.0.1:4303/build/q-D54tdL7B.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1375,
+          "decodedBodyBytes": 2020,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "22936.15",
+          "url": "http://127.0.0.1:4303/build/q-DzQKcuql.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 3699,
+          "decodedBodyBytes": 7018,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "22936.20",
+          "url": "http://127.0.0.1:4303/q-data.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Fetch",
+          "encodedDataLength": 331,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "22936.21",
+          "url": "http://127.0.0.1:4303/products/q-data.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Fetch",
+          "encodedDataLength": 340,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        }
+      ]
+    },
+    {
+      "framework": "Qwik",
+      "route": "/",
+      "run": 3,
+      "url": "http://127.0.0.1:4303/",
+      "externalJsRequests": 11,
+      "externalJsTransferBytes": 38689,
+      "decodedExternalJsBytes": 77906,
+      "executableInlineJsBytes": 811,
+      "totalJsSourceBytes": 78717,
+      "nonExecutableScriptBytes": 1611,
+      "totalPageTransferBytes": 44632,
+      "inlineScripts": [
+        {
+          "type": "module",
+          "classification": "executable",
+          "bytes": 109
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 0
+        },
+        {
+          "type": "module",
+          "classification": "executable",
+          "bytes": 240
+        },
+        {
+          "type": "qwik/json",
+          "classification": "non-executable",
+          "bytes": 1611
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 357
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 105
+        }
+      ],
+      "resources": [
+        {
+          "requestId": "957B8C95417057DED7BAF51B2F7A7775",
+          "url": "http://127.0.0.1:4303/",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 4069,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "10140.2",
+          "url": "http://127.0.0.1:4303/build/q-naDMFAHy.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 2059,
+          "decodedBodyBytes": 3100,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "10140.5",
+          "url": "http://127.0.0.1:4303/assets/BrZuW_cT-bundle-graph.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Other",
+          "encodedDataLength": 1203,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "10140.4",
+          "url": "http://127.0.0.1:4303/build/q-BKZ00VYc.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 2383,
+          "decodedBodyBytes": 3729,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "10140.6",
+          "url": "http://127.0.0.1:4303/build/q-BGwkMtXL.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 20756,
+          "decodedBodyBytes": 50379,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "10140.12",
+          "url": "http://127.0.0.1:4303/build/q-BBa74niC.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 668,
+          "decodedBodyBytes": 336,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "10140.14",
+          "url": "http://127.0.0.1:4303/build/q-DRthnSQJ.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 632,
+          "decodedBodyBytes": 300,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "10140.13",
+          "url": "http://127.0.0.1:4303/build/q-6ap5x88a.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 3199,
+          "decodedBodyBytes": 6999,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "10140.17",
+          "url": "http://127.0.0.1:4303/build/q-CG7MbxBR.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1162,
+          "decodedBodyBytes": 830,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "10140.15",
+          "url": "http://127.0.0.1:4303/build/q-DzQKcuql.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 3699,
+          "decodedBodyBytes": 7018,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "10140.19",
+          "url": "http://127.0.0.1:4303/build/q-DntOPMWx.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1290,
+          "decodedBodyBytes": 958,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "10140.16",
+          "url": "http://127.0.0.1:4303/build/q-BihhsMc7.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1466,
+          "decodedBodyBytes": 2237,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "10140.18",
+          "url": "http://127.0.0.1:4303/build/q-D54tdL7B.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1375,
+          "decodedBodyBytes": 2020,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "10140.20",
+          "url": "http://127.0.0.1:4303/q-data.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Fetch",
+          "encodedDataLength": 331,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "10140.21",
+          "url": "http://127.0.0.1:4303/products/q-data.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Fetch",
+          "encodedDataLength": 340,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        }
+      ]
+    },
+    {
+      "framework": "Qwik",
+      "route": "/products",
+      "run": 1,
+      "url": "http://127.0.0.1:4303/products",
+      "externalJsRequests": 16,
+      "externalJsTransferBytes": 43769,
+      "decodedExternalJsBytes": 84343,
+      "executableInlineJsBytes": 1117,
+      "totalJsSourceBytes": 85460,
+      "nonExecutableScriptBytes": 13728,
+      "totalPageTransferBytes": 71012,
+      "inlineScripts": [
+        {
+          "type": "module",
+          "classification": "executable",
+          "bytes": 109
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 0
+        },
+        {
+          "type": "module",
+          "classification": "executable",
+          "bytes": 272
+        },
+        {
+          "type": "qwik/json",
+          "classification": "non-executable",
+          "bytes": 13728
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 623
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 113
+        }
+      ],
+      "resources": [
+        {
+          "requestId": "A8260A7AA108B13BE7EF8851642E0CFB",
+          "url": "http://127.0.0.1:4303/products/",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 8548,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "9136.7",
+          "url": "http://127.0.0.1:4303/images/product-01.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 774,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "9136.8",
+          "url": "http://127.0.0.1:4303/images/product-02.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 787,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "9136.9",
+          "url": "http://127.0.0.1:4303/images/product-03.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1203,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "9136.10",
+          "url": "http://127.0.0.1:4303/images/product-04.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1207,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "9136.11",
+          "url": "http://127.0.0.1:4303/images/product-05.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1209,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "9136.12",
+          "url": "http://127.0.0.1:4303/images/product-06.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1167,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "9136.13",
+          "url": "http://127.0.0.1:4303/images/product-07.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1221,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "9136.14",
+          "url": "http://127.0.0.1:4303/images/product-08.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1234,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "9136.15",
+          "url": "http://127.0.0.1:4303/images/product-09.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1210,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "9136.16",
+          "url": "http://127.0.0.1:4303/images/product-10.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1243,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "9136.18",
+          "url": "http://127.0.0.1:4303/images/product-12.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1106,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "9136.19",
+          "url": "http://127.0.0.1:4303/images/product-13.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1219,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "9136.20",
+          "url": "http://127.0.0.1:4303/images/product-14.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1254,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "9136.17",
+          "url": "http://127.0.0.1:4303/images/product-11.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 788,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "9136.21",
+          "url": "http://127.0.0.1:4303/images/product-15.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1199,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "9136.2",
+          "url": "http://127.0.0.1:4303/build/q-naDMFAHy.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 2059,
+          "decodedBodyBytes": 3100,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "9136.5",
+          "url": "http://127.0.0.1:4303/assets/BrZuW_cT-bundle-graph.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Other",
+          "encodedDataLength": 1203,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "9136.4",
+          "url": "http://127.0.0.1:4303/build/q-BKZ00VYc.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 2383,
+          "decodedBodyBytes": 3729,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "9136.6",
+          "url": "http://127.0.0.1:4303/build/q-BGwkMtXL.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 20756,
+          "decodedBodyBytes": 50379,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "9136.42",
+          "url": "http://127.0.0.1:4303/build/q-BBa74niC.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 668,
+          "decodedBodyBytes": 336,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "9136.43",
+          "url": "http://127.0.0.1:4303/build/q-DRthnSQJ.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 632,
+          "decodedBodyBytes": 300,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "9136.47",
+          "url": "http://127.0.0.1:4303/build/q-DntOPMWx.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1290,
+          "decodedBodyBytes": 958,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "9136.44",
+          "url": "http://127.0.0.1:4303/build/q-6ap5x88a.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 3199,
+          "decodedBodyBytes": 6999,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "9136.45",
+          "url": "http://127.0.0.1:4303/build/q-DzQKcuql.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 3699,
+          "decodedBodyBytes": 7018,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "9136.46",
+          "url": "http://127.0.0.1:4303/build/q-D54tdL7B.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1375,
+          "decodedBodyBytes": 2020,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "9136.48",
+          "url": "http://127.0.0.1:4303/build/q-BihhsMc7.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1466,
+          "decodedBodyBytes": 2237,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "9136.49",
+          "url": "http://127.0.0.1:4303/build/q-XNKALSYk.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1253,
+          "decodedBodyBytes": 921,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "9136.50",
+          "url": "http://127.0.0.1:4303/build/q-CG7MbxBR.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1162,
+          "decodedBodyBytes": 830,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "9136.52",
+          "url": "http://127.0.0.1:4303/build/q-0Yp5MNeZ.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 497,
+          "decodedBodyBytes": 165,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "9136.51",
+          "url": "http://127.0.0.1:4303/build/q-DAl2cOAW.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1274,
+          "decodedBodyBytes": 2117,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "9136.53",
+          "url": "http://127.0.0.1:4303/build/q-Dm4JY0nH.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 629,
+          "decodedBodyBytes": 297,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "9136.54",
+          "url": "http://127.0.0.1:4303/build/q-BffzR1ec.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1427,
+          "decodedBodyBytes": 2937,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "9136.55",
+          "url": "http://127.0.0.1:4303/q-data.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Fetch",
+          "encodedDataLength": 331,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "9136.56",
+          "url": "http://127.0.0.1:4303/products/q-data.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Fetch",
+          "encodedDataLength": 340,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        }
+      ]
+    },
+    {
+      "framework": "Qwik",
+      "route": "/products",
+      "run": 2,
+      "url": "http://127.0.0.1:4303/products",
+      "externalJsRequests": 16,
+      "externalJsTransferBytes": 43769,
+      "decodedExternalJsBytes": 84343,
+      "executableInlineJsBytes": 1118,
+      "totalJsSourceBytes": 85461,
+      "nonExecutableScriptBytes": 13728,
+      "totalPageTransferBytes": 71015,
+      "inlineScripts": [
+        {
+          "type": "module",
+          "classification": "executable",
+          "bytes": 109
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 0
+        },
+        {
+          "type": "module",
+          "classification": "executable",
+          "bytes": 272
+        },
+        {
+          "type": "qwik/json",
+          "classification": "non-executable",
+          "bytes": 13728
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 624
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 113
+        }
+      ],
+      "resources": [
+        {
+          "requestId": "3233AE594FF7850EF770251676B13F16",
+          "url": "http://127.0.0.1:4303/products/",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 8551,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "19020.2",
+          "url": "http://127.0.0.1:4303/build/q-naDMFAHy.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 2059,
+          "decodedBodyBytes": 3100,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "19020.7",
+          "url": "http://127.0.0.1:4303/images/product-01.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 774,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "19020.8",
+          "url": "http://127.0.0.1:4303/images/product-02.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 787,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "19020.9",
+          "url": "http://127.0.0.1:4303/images/product-03.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1203,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "19020.10",
+          "url": "http://127.0.0.1:4303/images/product-04.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1207,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "19020.11",
+          "url": "http://127.0.0.1:4303/images/product-05.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1209,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "19020.12",
+          "url": "http://127.0.0.1:4303/images/product-06.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1167,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "19020.13",
+          "url": "http://127.0.0.1:4303/images/product-07.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1221,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "19020.14",
+          "url": "http://127.0.0.1:4303/images/product-08.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1234,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "19020.15",
+          "url": "http://127.0.0.1:4303/images/product-09.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1210,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "19020.16",
+          "url": "http://127.0.0.1:4303/images/product-10.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1243,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "19020.18",
+          "url": "http://127.0.0.1:4303/images/product-12.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1106,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "19020.19",
+          "url": "http://127.0.0.1:4303/images/product-13.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1219,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "19020.20",
+          "url": "http://127.0.0.1:4303/images/product-14.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1254,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "19020.17",
+          "url": "http://127.0.0.1:4303/images/product-11.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 788,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "19020.21",
+          "url": "http://127.0.0.1:4303/images/product-15.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1199,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "19020.5",
+          "url": "http://127.0.0.1:4303/assets/BrZuW_cT-bundle-graph.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Other",
+          "encodedDataLength": 1203,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "19020.4",
+          "url": "http://127.0.0.1:4303/build/q-BKZ00VYc.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 2383,
+          "decodedBodyBytes": 3729,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "19020.6",
+          "url": "http://127.0.0.1:4303/build/q-BGwkMtXL.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 20756,
+          "decodedBodyBytes": 50379,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "19020.42",
+          "url": "http://127.0.0.1:4303/build/q-BBa74niC.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 668,
+          "decodedBodyBytes": 336,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "19020.43",
+          "url": "http://127.0.0.1:4303/build/q-DRthnSQJ.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 632,
+          "decodedBodyBytes": 300,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "19020.47",
+          "url": "http://127.0.0.1:4303/build/q-DntOPMWx.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1290,
+          "decodedBodyBytes": 958,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "19020.44",
+          "url": "http://127.0.0.1:4303/build/q-6ap5x88a.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 3199,
+          "decodedBodyBytes": 6999,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "19020.45",
+          "url": "http://127.0.0.1:4303/build/q-DzQKcuql.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 3699,
+          "decodedBodyBytes": 7018,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "19020.46",
+          "url": "http://127.0.0.1:4303/build/q-D54tdL7B.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1375,
+          "decodedBodyBytes": 2020,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "19020.48",
+          "url": "http://127.0.0.1:4303/build/q-BihhsMc7.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1466,
+          "decodedBodyBytes": 2237,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "19020.49",
+          "url": "http://127.0.0.1:4303/build/q-XNKALSYk.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1253,
+          "decodedBodyBytes": 921,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "19020.50",
+          "url": "http://127.0.0.1:4303/build/q-CG7MbxBR.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1162,
+          "decodedBodyBytes": 830,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "19020.55",
+          "url": "http://127.0.0.1:4303/q-data.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Fetch",
+          "encodedDataLength": 331,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "19020.56",
+          "url": "http://127.0.0.1:4303/products/q-data.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Fetch",
+          "encodedDataLength": 340,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "19020.51",
+          "url": "http://127.0.0.1:4303/build/q-DAl2cOAW.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1274,
+          "decodedBodyBytes": 2117,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "19020.52",
+          "url": "http://127.0.0.1:4303/build/q-0Yp5MNeZ.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 497,
+          "decodedBodyBytes": 165,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "19020.53",
+          "url": "http://127.0.0.1:4303/build/q-Dm4JY0nH.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 629,
+          "decodedBodyBytes": 297,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "19020.54",
+          "url": "http://127.0.0.1:4303/build/q-BffzR1ec.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1427,
+          "decodedBodyBytes": 2937,
+          "bodyReadError": null,
+          "isJavaScript": true
+        }
+      ]
+    },
+    {
+      "framework": "Qwik",
+      "route": "/products",
+      "run": 3,
+      "url": "http://127.0.0.1:4303/products",
+      "externalJsRequests": 16,
+      "externalJsTransferBytes": 43769,
+      "decodedExternalJsBytes": 84343,
+      "executableInlineJsBytes": 1116,
+      "totalJsSourceBytes": 85459,
+      "nonExecutableScriptBytes": 13728,
+      "totalPageTransferBytes": 71012,
+      "inlineScripts": [
+        {
+          "type": "module",
+          "classification": "executable",
+          "bytes": 109
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 0
+        },
+        {
+          "type": "module",
+          "classification": "executable",
+          "bytes": 272
+        },
+        {
+          "type": "qwik/json",
+          "classification": "non-executable",
+          "bytes": 13728
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 622
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 113
+        }
+      ],
+      "resources": [
+        {
+          "requestId": "203F6F4990719B3CE6339D06016E3605",
+          "url": "http://127.0.0.1:4303/products/",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 8548,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "34024.7",
+          "url": "http://127.0.0.1:4303/images/product-01.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 774,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "34024.8",
+          "url": "http://127.0.0.1:4303/images/product-02.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 787,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "34024.9",
+          "url": "http://127.0.0.1:4303/images/product-03.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1203,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "34024.10",
+          "url": "http://127.0.0.1:4303/images/product-04.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1207,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "34024.11",
+          "url": "http://127.0.0.1:4303/images/product-05.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1209,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "34024.12",
+          "url": "http://127.0.0.1:4303/images/product-06.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1167,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "34024.13",
+          "url": "http://127.0.0.1:4303/images/product-07.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1221,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "34024.14",
+          "url": "http://127.0.0.1:4303/images/product-08.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1234,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "34024.15",
+          "url": "http://127.0.0.1:4303/images/product-09.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1210,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "34024.16",
+          "url": "http://127.0.0.1:4303/images/product-10.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1243,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "34024.18",
+          "url": "http://127.0.0.1:4303/images/product-12.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1106,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "34024.19",
+          "url": "http://127.0.0.1:4303/images/product-13.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1219,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "34024.20",
+          "url": "http://127.0.0.1:4303/images/product-14.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1254,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "34024.17",
+          "url": "http://127.0.0.1:4303/images/product-11.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 788,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "34024.21",
+          "url": "http://127.0.0.1:4303/images/product-15.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 1199,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "34024.2",
+          "url": "http://127.0.0.1:4303/build/q-naDMFAHy.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 2059,
+          "decodedBodyBytes": 3100,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "34024.5",
+          "url": "http://127.0.0.1:4303/assets/BrZuW_cT-bundle-graph.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Other",
+          "encodedDataLength": 1203,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "34024.4",
+          "url": "http://127.0.0.1:4303/build/q-BKZ00VYc.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 2383,
+          "decodedBodyBytes": 3729,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "34024.6",
+          "url": "http://127.0.0.1:4303/build/q-BGwkMtXL.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 20756,
+          "decodedBodyBytes": 50379,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "34024.42",
+          "url": "http://127.0.0.1:4303/build/q-BBa74niC.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 668,
+          "decodedBodyBytes": 336,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "34024.43",
+          "url": "http://127.0.0.1:4303/build/q-DRthnSQJ.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 632,
+          "decodedBodyBytes": 300,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "34024.47",
+          "url": "http://127.0.0.1:4303/build/q-DntOPMWx.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1290,
+          "decodedBodyBytes": 958,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "34024.44",
+          "url": "http://127.0.0.1:4303/build/q-6ap5x88a.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 3199,
+          "decodedBodyBytes": 6999,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "34024.46",
+          "url": "http://127.0.0.1:4303/build/q-D54tdL7B.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1375,
+          "decodedBodyBytes": 2020,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "34024.45",
+          "url": "http://127.0.0.1:4303/build/q-DzQKcuql.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 3699,
+          "decodedBodyBytes": 7018,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "34024.49",
+          "url": "http://127.0.0.1:4303/build/q-XNKALSYk.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1253,
+          "decodedBodyBytes": 921,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "34024.48",
+          "url": "http://127.0.0.1:4303/build/q-BihhsMc7.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1466,
+          "decodedBodyBytes": 2237,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "34024.50",
+          "url": "http://127.0.0.1:4303/build/q-CG7MbxBR.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1162,
+          "decodedBodyBytes": 830,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "34024.55",
+          "url": "http://127.0.0.1:4303/products/q-data.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Fetch",
+          "encodedDataLength": 340,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "34024.52",
+          "url": "http://127.0.0.1:4303/build/q-0Yp5MNeZ.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 497,
+          "decodedBodyBytes": 165,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "34024.56",
+          "url": "http://127.0.0.1:4303/q-data.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Fetch",
+          "encodedDataLength": 331,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "34024.53",
+          "url": "http://127.0.0.1:4303/build/q-Dm4JY0nH.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 629,
+          "decodedBodyBytes": 297,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "34024.51",
+          "url": "http://127.0.0.1:4303/build/q-DAl2cOAW.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1274,
+          "decodedBodyBytes": 2117,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "34024.54",
+          "url": "http://127.0.0.1:4303/build/q-BffzR1ec.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1427,
+          "decodedBodyBytes": 2937,
+          "bodyReadError": null,
+          "isJavaScript": true
+        }
+      ]
+    },
+    {
+      "framework": "Qwik",
+      "route": "/products/1",
+      "run": 1,
+      "url": "http://127.0.0.1:4303/products/1",
+      "externalJsRequests": 14,
+      "externalJsTransferBytes": 40903,
+      "decodedExternalJsBytes": 79557,
+      "executableInlineJsBytes": 986,
+      "totalJsSourceBytes": 80543,
+      "nonExecutableScriptBytes": 2300,
+      "totalPageTransferBytes": 48044,
+      "inlineScripts": [
+        {
+          "type": "module",
+          "classification": "executable",
+          "bytes": 109
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 0
+        },
+        {
+          "type": "module",
+          "classification": "executable",
+          "bytes": 272
+        },
+        {
+          "type": "qwik/json",
+          "classification": "non-executable",
+          "bytes": 2300
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 500
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 105
+        }
+      ],
+      "resources": [
+        {
+          "requestId": "3826109AAED108D168BE198C2F8B4D8D",
+          "url": "http://127.0.0.1:4303/products/1/",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 4493,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "35428.7",
+          "url": "http://127.0.0.1:4303/images/product-01.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 774,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "35428.2",
+          "url": "http://127.0.0.1:4303/build/q-naDMFAHy.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 2059,
+          "decodedBodyBytes": 3100,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "35428.5",
+          "url": "http://127.0.0.1:4303/assets/BrZuW_cT-bundle-graph.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Other",
+          "encodedDataLength": 1203,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "35428.4",
+          "url": "http://127.0.0.1:4303/build/q-BKZ00VYc.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 2383,
+          "decodedBodyBytes": 3729,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "35428.6",
+          "url": "http://127.0.0.1:4303/build/q-BGwkMtXL.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 20756,
+          "decodedBodyBytes": 50379,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "35428.14",
+          "url": "http://127.0.0.1:4303/build/q-BBa74niC.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 668,
+          "decodedBodyBytes": 336,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "35428.15",
+          "url": "http://127.0.0.1:4303/build/q-Cawa_cAF.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 666,
+          "decodedBodyBytes": 334,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "35428.17",
+          "url": "http://127.0.0.1:4303/build/q-DRthnSQJ.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 632,
+          "decodedBodyBytes": 300,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "35428.16",
+          "url": "http://127.0.0.1:4303/build/q-6ap5x88a.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 3199,
+          "decodedBodyBytes": 6999,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "35428.19",
+          "url": "http://127.0.0.1:4303/build/q-Di5X45_t.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 525,
+          "decodedBodyBytes": 193,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "35428.21",
+          "url": "http://127.0.0.1:4303/build/q-CG7MbxBR.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1162,
+          "decodedBodyBytes": 830,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "35428.18",
+          "url": "http://127.0.0.1:4303/build/q-DzQKcuql.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 3699,
+          "decodedBodyBytes": 7018,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "35428.20",
+          "url": "http://127.0.0.1:4303/build/q-BihhsMc7.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1466,
+          "decodedBodyBytes": 2237,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "35428.22",
+          "url": "http://127.0.0.1:4303/build/q-D54tdL7B.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1375,
+          "decodedBodyBytes": 2020,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "35428.23",
+          "url": "http://127.0.0.1:4303/build/q-R-izLs1K.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1023,
+          "decodedBodyBytes": 1124,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "35428.24",
+          "url": "http://127.0.0.1:4303/build/q-DntOPMWx.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1290,
+          "decodedBodyBytes": 958,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "35428.25",
+          "url": "http://127.0.0.1:4303/q-data.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Fetch",
+          "encodedDataLength": 331,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "35428.26",
+          "url": "http://127.0.0.1:4303/products/q-data.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Fetch",
+          "encodedDataLength": 340,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        }
+      ]
+    },
+    {
+      "framework": "Qwik",
+      "route": "/products/1",
+      "run": 2,
+      "url": "http://127.0.0.1:4303/products/1",
+      "externalJsRequests": 14,
+      "externalJsTransferBytes": 40903,
+      "decodedExternalJsBytes": 79557,
+      "executableInlineJsBytes": 985,
+      "totalJsSourceBytes": 80542,
+      "nonExecutableScriptBytes": 2300,
+      "totalPageTransferBytes": 48045,
+      "inlineScripts": [
+        {
+          "type": "module",
+          "classification": "executable",
+          "bytes": 109
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 0
+        },
+        {
+          "type": "module",
+          "classification": "executable",
+          "bytes": 272
+        },
+        {
+          "type": "qwik/json",
+          "classification": "non-executable",
+          "bytes": 2300
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 499
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 105
+        }
+      ],
+      "resources": [
+        {
+          "requestId": "09404EED3A707444E8BE1F15F559EAD6",
+          "url": "http://127.0.0.1:4303/products/1/",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 4494,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "1804.7",
+          "url": "http://127.0.0.1:4303/images/product-01.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 774,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "1804.2",
+          "url": "http://127.0.0.1:4303/build/q-naDMFAHy.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 2059,
+          "decodedBodyBytes": 3100,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "1804.5",
+          "url": "http://127.0.0.1:4303/assets/BrZuW_cT-bundle-graph.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Other",
+          "encodedDataLength": 1203,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "1804.4",
+          "url": "http://127.0.0.1:4303/build/q-BKZ00VYc.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 2383,
+          "decodedBodyBytes": 3729,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "1804.6",
+          "url": "http://127.0.0.1:4303/build/q-BGwkMtXL.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 20756,
+          "decodedBodyBytes": 50379,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "1804.15",
+          "url": "http://127.0.0.1:4303/build/q-Cawa_cAF.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 666,
+          "decodedBodyBytes": 334,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "1804.14",
+          "url": "http://127.0.0.1:4303/build/q-BBa74niC.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 668,
+          "decodedBodyBytes": 336,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "1804.17",
+          "url": "http://127.0.0.1:4303/build/q-DRthnSQJ.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 632,
+          "decodedBodyBytes": 300,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "1804.19",
+          "url": "http://127.0.0.1:4303/build/q-Di5X45_t.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 525,
+          "decodedBodyBytes": 193,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "1804.16",
+          "url": "http://127.0.0.1:4303/build/q-6ap5x88a.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 3199,
+          "decodedBodyBytes": 6999,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "1804.21",
+          "url": "http://127.0.0.1:4303/build/q-CG7MbxBR.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1162,
+          "decodedBodyBytes": 830,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "1804.20",
+          "url": "http://127.0.0.1:4303/build/q-BihhsMc7.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1466,
+          "decodedBodyBytes": 2237,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "1804.18",
+          "url": "http://127.0.0.1:4303/build/q-DzQKcuql.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 3699,
+          "decodedBodyBytes": 7018,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "1804.22",
+          "url": "http://127.0.0.1:4303/build/q-D54tdL7B.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1375,
+          "decodedBodyBytes": 2020,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "1804.23",
+          "url": "http://127.0.0.1:4303/build/q-R-izLs1K.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1023,
+          "decodedBodyBytes": 1124,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "1804.24",
+          "url": "http://127.0.0.1:4303/build/q-DntOPMWx.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1290,
+          "decodedBodyBytes": 958,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "1804.25",
+          "url": "http://127.0.0.1:4303/q-data.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Fetch",
+          "encodedDataLength": 331,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "1804.26",
+          "url": "http://127.0.0.1:4303/products/q-data.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Fetch",
+          "encodedDataLength": 340,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        }
+      ]
+    },
+    {
+      "framework": "Qwik",
+      "route": "/products/1",
+      "run": 3,
+      "url": "http://127.0.0.1:4303/products/1",
+      "externalJsRequests": 14,
+      "externalJsTransferBytes": 40903,
+      "decodedExternalJsBytes": 79557,
+      "executableInlineJsBytes": 985,
+      "totalJsSourceBytes": 80542,
+      "nonExecutableScriptBytes": 2300,
+      "totalPageTransferBytes": 48046,
+      "inlineScripts": [
+        {
+          "type": "module",
+          "classification": "executable",
+          "bytes": 109
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 0
+        },
+        {
+          "type": "module",
+          "classification": "executable",
+          "bytes": 272
+        },
+        {
+          "type": "qwik/json",
+          "classification": "non-executable",
+          "bytes": 2300
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 499
+        },
+        {
+          "type": "",
+          "classification": "executable",
+          "bytes": 105
+        }
+      ],
+      "resources": [
+        {
+          "requestId": "F6C7AC114322EEF870D8BB5F8B77B092",
+          "url": "http://127.0.0.1:4303/products/1/",
+          "status": 200,
+          "mimeType": "text/html",
+          "type": "Document",
+          "encodedDataLength": 4495,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "33096.7",
+          "url": "http://127.0.0.1:4303/images/product-01.svg",
+          "status": 200,
+          "mimeType": "image/svg+xml",
+          "type": "Image",
+          "encodedDataLength": 774,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "33096.2",
+          "url": "http://127.0.0.1:4303/build/q-naDMFAHy.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 2059,
+          "decodedBodyBytes": 3100,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "33096.5",
+          "url": "http://127.0.0.1:4303/assets/BrZuW_cT-bundle-graph.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Other",
+          "encodedDataLength": 1203,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "33096.4",
+          "url": "http://127.0.0.1:4303/build/q-BKZ00VYc.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 2383,
+          "decodedBodyBytes": 3729,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "33096.6",
+          "url": "http://127.0.0.1:4303/build/q-BGwkMtXL.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 20756,
+          "decodedBodyBytes": 50379,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "33096.14",
+          "url": "http://127.0.0.1:4303/build/q-BBa74niC.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 668,
+          "decodedBodyBytes": 336,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "33096.15",
+          "url": "http://127.0.0.1:4303/build/q-Cawa_cAF.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 666,
+          "decodedBodyBytes": 334,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "33096.17",
+          "url": "http://127.0.0.1:4303/build/q-DRthnSQJ.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 632,
+          "decodedBodyBytes": 300,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "33096.16",
+          "url": "http://127.0.0.1:4303/build/q-6ap5x88a.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 3199,
+          "decodedBodyBytes": 6999,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "33096.19",
+          "url": "http://127.0.0.1:4303/build/q-Di5X45_t.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 525,
+          "decodedBodyBytes": 193,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "33096.21",
+          "url": "http://127.0.0.1:4303/build/q-CG7MbxBR.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1162,
+          "decodedBodyBytes": 830,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "33096.18",
+          "url": "http://127.0.0.1:4303/build/q-DzQKcuql.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 3699,
+          "decodedBodyBytes": 7018,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "33096.20",
+          "url": "http://127.0.0.1:4303/build/q-BihhsMc7.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1466,
+          "decodedBodyBytes": 2237,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "33096.22",
+          "url": "http://127.0.0.1:4303/build/q-D54tdL7B.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1375,
+          "decodedBodyBytes": 2020,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "33096.24",
+          "url": "http://127.0.0.1:4303/build/q-DntOPMWx.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1290,
+          "decodedBodyBytes": 958,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "33096.23",
+          "url": "http://127.0.0.1:4303/build/q-R-izLs1K.js",
+          "status": 200,
+          "mimeType": "text/javascript",
+          "type": "Script",
+          "encodedDataLength": 1023,
+          "decodedBodyBytes": 1124,
+          "bodyReadError": null,
+          "isJavaScript": true
+        },
+        {
+          "requestId": "33096.25",
+          "url": "http://127.0.0.1:4303/q-data.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Fetch",
+          "encodedDataLength": 331,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        },
+        {
+          "requestId": "33096.26",
+          "url": "http://127.0.0.1:4303/products/q-data.json",
+          "status": 200,
+          "mimeType": "application/json",
+          "type": "Fetch",
+          "encodedDataLength": 340,
+          "decodedBodyBytes": null,
+          "bodyReadError": null,
+          "isJavaScript": false
+        }
+      ]
+    }
+  ]
+}

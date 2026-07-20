@@ -1,0 +1,11 @@
+{
+  "name": "framework-comparison-personal-browser-measurement",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "measure": "node measure-browser-javascript-windows.mjs --runs=3"
+  },
+  "dependencies": {
+    "playwright": "1.61.1"
+  }
+}
