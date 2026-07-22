@@ -1,0 +1,31 @@
+Measurement date: 2026-07-20T17:52:52.8312526+02:00
+Node version: v24.16.0
+npm version: 11.13.0
+Git commit: f8aae365e532aa266bc2d0134676d113ef2ba5c8
+PowerShell version: 5.1.26100.8875
+Git status:
+?? lighthouse-reports/
+?? measurement-results/personal-run/
+?? notes/corrected-build-output-results.md
+
+Operating system:
+
+
+Caption        : Microsoft Windows 11 Home
+Version        : 10.0.26100
+OSArchitecture : 64-bit
+
+
+
+
+Processor:
+
+
+Name                      : AMD Ryzen 7 5800H with Radeon Graphics
+NumberOfCores             : 8
+NumberOfLogicalProcessors : 16
+
+
+
+
+Astro build test started: 2026-07-20T18:04:39.0244238+02:00

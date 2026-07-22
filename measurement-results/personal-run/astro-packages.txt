@@ -1,0 +1,2 @@
+astro-product-explorer@0.0.1 C:\Users\Asif Khan\OneDrive\Desktop\framework-comparison\astro-product-explorer
+ΓööΓöÇΓöÇ astro@6.4.4

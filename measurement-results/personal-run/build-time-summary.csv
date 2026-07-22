@@ -1,0 +1,4 @@
+"Framework","Runs","MeanSeconds","MedianSeconds","MinSeconds","MaxSeconds","AllPassed"
+"Astro","3","4.653","4.638","4.552","4.768","True"
+"SvelteKit","3","6.22","6.267","5.753","6.641","True"
+"Qwik","3","10.448","10.397","9.041","11.906","True"

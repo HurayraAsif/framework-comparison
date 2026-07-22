@@ -1,0 +1,15 @@
+my-qwik-empty-starter@ C:\Users\Asif Khan\OneDrive\Desktop\framework-comparison\qwik-product-explorer
+Γö£ΓöÇΓöÇ @builder.io/qwik-city@1.20.0
+Γö£ΓöÇΓöÇ @builder.io/qwik@1.20.0
+Γö£ΓöÇΓöÇ @eslint/js@9.39.4
+Γö£ΓöÇΓöÇ @types/node@20.19.0
+Γö£ΓöÇΓöÇ eslint-plugin-qwik@1.20.0
+Γö£ΓöÇΓöÇ eslint@9.32.0
+Γö£ΓöÇΓöÇ globals@16.4.0
+Γö£ΓöÇΓöÇ prettier@3.6.2
+Γö£ΓöÇΓöÇ typescript-eslint@8.38.0
+Γö£ΓöÇΓöÇ typescript-plugin-css-modules@5.2.0
+Γö£ΓöÇΓöÇ typescript@5.4.5
+Γö£ΓöÇΓöÇ undici@8.3.0
+Γö£ΓöÇΓöÇ vite-tsconfig-paths@4.3.2
+ΓööΓöÇΓöÇ vite@7.3.1
