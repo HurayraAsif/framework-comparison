@@ -1,3 +1,9 @@
+# Superseded Early Thesis Outline
+
+This file is an early planning outline and is not the submitted thesis.  
+The completed thesis and verified research evidence supersede this document.
+
+---
 # Comparative Study of Disappearing Frameworks: Astro, SvelteKit, and Qwik
 
 ## Abstract
